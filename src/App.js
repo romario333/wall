@@ -10,12 +10,14 @@ class App extends Component {
     super(props);
     this.state = {
       search: '',
-      routes: []
-    }
-    
+      routes: [],
+      activeRoute: null
+    };
+
     this.handleSearchChange = this.handleSearchChange.bind(this);
+    this.handleRouteClick = this.handleRouteClick.bind(this);
   }
-  
+
   componentDidMount() {
     fetch(process.env.PUBLIC_URL + '/routes.json')
       .then((response) => response.json())
@@ -23,7 +25,7 @@ class App extends Component {
         this.setState({routes});
       })
   }
-  
+
   render() {
     return (
       <div className="cointainer">
@@ -34,9 +36,9 @@ class App extends Component {
           {
             this.getRoutes().map(route => {
               return (
-                <li key={route.id} className="list-group-item">
+                <li key={route.id} className="list-group-item" onClick={this.handleRouteClick(route)}>
                   <div className="col-2 h1" style={{backgroundColor: route.color}}>{route.difficulty}</div>
-                  <div className="col">
+                  <div className="col-6">
                     <div className="h5">{route.name}</div>
                     <div className="text-muted">{route.traits.join(', ')}</div>
                   </div>
@@ -44,6 +46,7 @@ class App extends Component {
                     <div>#{route.lineNumber}</div>
                     <div>{route.sector}</div>
                   </div>
+                  {route === this.state.activeRoute ? this.renderDetails(route) : null}
                 </li>
               )
             })
@@ -52,18 +55,39 @@ class App extends Component {
       </div>
     );
   }
-  
+
+  renderDetails(route) {
+    return (
+      <div className="col-12">
+        <hr/>
+        { route.expired ? <div className="alert alert-warning"><strong>Expired Route</strong> This route is expired and will be decommissioned soon.</div> : null }
+        <dl>
+          <dt>Created</dt>
+          <dd>{route.created}</dd>
+          <dt>Author</dt>
+          <dd>{route.author}</dd>
+        </dl>
+        <a href={`http://wallonsight.com/routes/detail/${route.id}`} target="_blank">More Details</a>
+      </div>
+    )
+  }
+
   handleSearchChange(e) {
     this.setState({search: e.target.value});
   }
-  
+
+  handleRouteClick(route) {
+    return (() => { // TODO: how to solve this better?
+      this.setState({activeRoute: route});
+    });
+  }
+
   getRoutes() {
-    let res = fuzzy
+    return fuzzy
       .filter(deburr(this.state.search), this.state.routes, {
         extract: route => deburr(route.name) // deburr removes diactritics
       })
       .map(res => res.original);
-    return res;
   }
 
 }

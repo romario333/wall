@@ -30,29 +30,25 @@ class App extends Component {
         <nav className="navbar fixed-top navbar-light bg-faded">
           <input type="text" className="form-control form-control-lg" placeholder="Search" onChange={this.handleSearchChange}/>
         </nav>
-        <div className="row">
-          <div className="col">
-            <ul className="route-list list-group">
-              {
-                this.getRoutes().map(route => {
-                  return (
-                    <li key={route.id} className="list-group-item">
-                      <div className="col-2 h1" style={{backgroundColor: route.color}}>{route.difficulty}</div>
-                      <div className="col">
-                        <div className="h5">{route.name}</div>
-                        <div className="text-muted">{route.traits.join(', ')}</div>
-                      </div>
-                      <div className="col-4 text-right text-muted">
-                        <div>#{route.lineNumber}</div>
-                        <div>{route.sector}</div>
-                      </div>
-                    </li>
-                  )
-                })
-              }
-            </ul>
-          </div>
-        </div>
+        <ul className="route-list list-group">
+          {
+            this.getRoutes().map(route => {
+              return (
+                <li key={route.id} className="list-group-item">
+                  <div className="col-2 h1" style={{backgroundColor: route.color}}>{route.difficulty}</div>
+                  <div className="col">
+                    <div className="h5">{route.name}</div>
+                    <div className="text-muted">{route.traits.join(', ')}</div>
+                  </div>
+                  <div className="col-4 text-right text-muted">
+                    <div>#{route.lineNumber}</div>
+                    <div>{route.sector}</div>
+                  </div>
+                </li>
+              )
+            })
+          }
+        </ul>
       </div>
     );
   }

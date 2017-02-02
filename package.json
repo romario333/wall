@@ -2,6 +2,7 @@
   "name": "wall",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://romario333.github.io/wall/",
   "devDependencies": {
     "cheerio": "^0.22.0",
     "lodash": "^4.17.4",

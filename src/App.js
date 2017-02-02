@@ -61,11 +61,11 @@ class App extends Component {
       <div className="col-12">
         <hr/>
         { route.expired ? <div className="alert alert-warning"><strong>Expired Route</strong> This route is expired and will be decommissioned soon.</div> : null }
-        <dl>
-          <dt>Created</dt>
-          <dd>{route.created}</dd>
-          <dt>Author</dt>
-          <dd>{route.author}</dd>
+        <dl className="row">
+          <dt className="col-3">Created</dt>
+          <dd className="col-9">{route.created}</dd>
+          <dt className="col-3">Author</dt>
+          <dd className="col-9">{route.author}</dd>
         </dl>
         <a href={`http://wallonsight.com/routes/detail/${route.id}`} target="_blank">More Details</a>
       </div>

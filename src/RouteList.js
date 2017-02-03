@@ -127,16 +127,25 @@ class RouteListItem extends Component {
           onClick={this.props.onClick}
           ref={el => this.el = el}
       >
-        <div className="col-2 h1" style={{backgroundColor: route.color}}>{route.difficulty}</div>
-        <div className="col-6">
-          <div className="h5">{route.name}</div>
-          <div className="text-muted">{route.traits.join(', ')}</div>
+        <div className="col-auto">
+          <div className="route-difficulty h1 align-middle" style={{backgroundColor: route.color}}>{route.difficulty}</div>
         </div>
-        <div className="col-4 text-right text-muted">
-          <div>#{route.lineNumber}</div>
-          <div>{route.sector}</div>
+        <div className="col">
+          <div className="row">
+            <div className="col-9">
+              <div className="h5">{route.name}</div>
+              <div className="text-muted">{route.traits.join(', ')}</div>
+            </div>
+            <div className="col text-right text-muted">
+              <div>#{route.lineNumber}</div>
+            </div>
+          </div>
         </div>
-        {active ? <RouteDetail route={route}/> : null}
+        {active ? (
+            <div className="row">
+              <div className="col"><RouteDetail route={route}/></div>
+            </div>
+          ) : null}
       </li>
     )
   }
@@ -144,7 +153,7 @@ class RouteListItem extends Component {
 
 function RouteDetail({route}) {
   return (
-    <div className="col-12">
+    <div>
       <hr/>
       { route.expired ? <div className="alert alert-warning"><strong>Expired Route</strong> This route is expired and will be decommissioned soon.</div> : null }
       <dl className="row">
@@ -152,6 +161,8 @@ function RouteDetail({route}) {
         <dd className="col-9">{route.created}</dd>
         <dt className="col-3">Author</dt>
         <dd className="col-9">{route.author}</dd>
+        <dt className="col-3">Sector</dt>
+        <dd className="col-9">{route.sector}</dd>
       </dl>
       <a href={`http://wallonsight.com/routes/detail/${route.id}`} target="_blank">More Details</a>
     </div>

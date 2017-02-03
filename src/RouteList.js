@@ -131,7 +131,6 @@ class RouteListItem extends Component {
         <div className="col-4 text-right text-muted">
           <div>#{route.lineNumber}</div>
           <div>{route.sector}</div>
-          <div>aa{route.active}</div>
         </div>
         {active ? <RouteDetail route={route}/> : null}
       </li>

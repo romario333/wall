@@ -5,6 +5,9 @@ import 'whatwg-fetch';
 import classNames from 'classnames';
 import './RouteList.css';
 
+// TODO: for now let's compile routes.json into the bundle, so I don't have to care about caching
+import routes from '../public/routes.json';
+
 class RouteList extends Component {
   constructor(props) {
     super(props);
@@ -19,11 +22,12 @@ class RouteList extends Component {
   }
 
   componentDidMount() {
-    fetch(process.env.PUBLIC_URL + '/routes.json')
-      .then((response) => response.json())
-      .then((routes) => {
-        this.setState({routes});
-      })
+    this.setState({routes});
+    // fetch(process.env.PUBLIC_URL + '/routes.json')
+    //   .then((response) => response.json())
+    //   .then((routes) => {
+    //     this.setState({routes});
+    //   })
   }
 
   render() {

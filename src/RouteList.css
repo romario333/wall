@@ -1,0 +1,4 @@
+.route-list {
+  /* make room for fixed navbar at the top */
+  margin-top: 67px;
+}

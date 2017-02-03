@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import fuzzy from 'fuzzy';
 import deburr from 'lodash.deburr';
 import 'whatwg-fetch';
+import classNames from 'classnames';
 import './RouteList.css';
 
 class RouteList extends Component {
@@ -58,7 +59,8 @@ class RouteList extends Component {
 
   handleRouteClick(route) {
     return (() => {
-      this.listItems[route.id].keepScrollPositionThroughUpdate();
+
+      this.rememberPosition(this.listItems[route.id]); // TODO: tohle je divny
       this.setState({activeRoute: route});
     });
   }
@@ -71,6 +73,44 @@ class RouteList extends Component {
       .map(res => res.original);
   }
 
+  componentDidUpdate() {
+    this.updateScrollTop();
+  }
+
+  rememberPosition(listItem) {
+    this.offsetTopBeforeUpdate = listItem.el.offsetTop;
+    this.scrollTopBeforeUpdate = document.body.scrollTop;
+  }
+
+  updateScrollTop() {
+    let offsetTopBeforeUpdate = this.offsetTopBeforeUpdate;
+    let scrollTopBeforeUpdate = this.scrollTopBeforeUpdate;
+    this.offsetTopBeforeUpdate = null;
+    this.scrollTopBeforeUpdate = null;
+
+    if (document.body.scrollTop !== scrollTopBeforeUpdate || !this.state.activeRoute) {
+      // do not mess with scrollTop if user is actively scrolling
+      return;
+    }
+
+    let listItem = this.listItems[this.state.activeRoute.id];
+
+    // make sure position of newly selected route does not change
+    if (offsetTopBeforeUpdate) {
+      let beforeUpdate = offsetTopBeforeUpdate;
+      let afterUpdate = listItem.el.offsetTop;
+      let change = afterUpdate - beforeUpdate;
+      document.body.scrollTop += change;
+    }
+
+    // scroll if active route does not fit the screen
+    if (listItem.el.offsetTop + listItem.el.offsetHeight > document.body.scrollTop + window.innerHeight) {
+      //listItem.el.scrollIntoView(false);
+      // TODO: why +98?
+      document.body.scrollTop = listItem.el.offsetTop + listItem.el.offsetHeight - window.innerHeight + 98;
+    }
+  }
+
 }
 
 class RouteListItem extends Component {
@@ -79,7 +119,10 @@ class RouteListItem extends Component {
     let active = this.props.active;
 
     return (
-      <li className="list-group-item" onClick={this.props.onClick} ref={el => this.el = el}>
+      <li className={classNames({'list-group-item': true, 'route-list-item-active': active})}
+          onClick={this.props.onClick}
+          ref={el => this.el = el}
+      >
         <div className="col-2 h1" style={{backgroundColor: route.color}}>{route.difficulty}</div>
         <div className="col-6">
           <div className="h5">{route.name}</div>
@@ -93,27 +136,6 @@ class RouteListItem extends Component {
         {active ? <RouteDetail route={route}/> : null}
       </li>
     )
-  }
-
-  keepScrollPositionThroughUpdate() {
-    this.offsetTopBeforeUpdate = this.el.offsetTop;
-    this.scrollTopBeforeUpdate = document.body.scrollTop;
-  }
-
-  componentDidUpdate() {
-    if (this.offsetTopBeforeUpdate) {
-      let beforeUpdate = this.offsetTopBeforeUpdate;
-      let afterUpdate = this.el.offsetTop;
-      let change = afterUpdate - beforeUpdate;
-
-      console.log('beforeUpdate', beforeUpdate, 'afterUpdate', afterUpdate, 'change', change, 'this.scrollTopBeforeUpdate', this.scrollTopBeforeUpdate, 'document.body.scrollTop', document.body.scrollTop);
-
-      if (document.body.scrollTop === this.scrollTopBeforeUpdate) { // change scrollTop only if user is not actively scrolling
-        document.body.scrollTop += change;
-      }
-
-      this.offsetTopBeforeUpdate = null;
-    }
   }
 }
 

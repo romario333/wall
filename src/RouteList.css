@@ -2,3 +2,7 @@
   /* make room for fixed navbar at the top */
   margin-top: 67px;
 }
+
+.route-list-item-active {
+  background-color: #f4f4f4;
+}

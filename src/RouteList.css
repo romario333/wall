@@ -14,3 +14,8 @@
   align-items: center;
   justify-content: center;
 }
+
+/* Make text white for dark colors */
+.route-color-dark {
+  color: #f3f3f3;
+}

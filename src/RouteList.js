@@ -3,6 +3,7 @@ import fuzzy from 'fuzzy';
 import deburr from 'lodash.deburr';
 import 'whatwg-fetch';
 import classNames from 'classnames';
+import contrast from 'contrast';
 import './RouteList.css';
 
 // TODO: for now let's compile routes.json into the bundle, so I don't have to care about caching
@@ -128,7 +129,11 @@ class RouteListItem extends Component {
           ref={el => this.el = el}
       >
         <div className="col-auto">
-          <div className="route-difficulty h1 align-middle" style={{backgroundColor: route.color}}>{route.difficulty}</div>
+          <div className={`route-difficulty h1 align-middle route-color-${contrast(route.color || '#fff')}`}
+               style={{backgroundColor: route.color}}
+          >
+            {route.difficulty}
+          </div>
         </div>
         <div className="col">
           <div className="row">

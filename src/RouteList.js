@@ -37,7 +37,7 @@ class RouteList extends Component {
     return (
       <div>
         <nav className="navbar fixed-top navbar-light bg-faded">
-          <input type="text" className="form-control form-control-lg" placeholder="Search" onChange={this.handleSearchChange}/>
+          <input type="search" className="form-control form-control-lg" placeholder="Search" onChange={this.handleSearchChange}/>
         </nav>
         <ul className="route-list list-group">
           {
@@ -60,6 +60,7 @@ class RouteList extends Component {
 
   handleSearchChange(e) {
     this.setState({search: e.target.value});
+    document.body.scrollTop = 0;
   }
 
   handleRouteClick(route) {

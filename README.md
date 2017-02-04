@@ -14,6 +14,9 @@ npm start
 
 # build static site
 npm run build
+
+# deploy to GitHub Pages
+npm run deploy
 ```
 
 ## TODO:

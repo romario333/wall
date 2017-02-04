@@ -19,3 +19,11 @@
 .route-color-dark {
   color: #f3f3f3;
 }
+
+/* I want to have clear button in chrome */
+input[type="search"] {
+  -webkit-appearance: searchfield;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: searchfield-cancel-button;
+}

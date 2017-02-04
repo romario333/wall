@@ -32,12 +32,12 @@ class RouteList extends Component {
   }
 
   render() {
-    this.listItems = {};
+    this.listItems = [];
 
     return (
       <div>
         <nav className="navbar fixed-top navbar-light bg-faded">
-          <input type="search" className="form-control form-control-lg" placeholder="Search" onChange={this.handleSearchChange}/>
+          <input type="search" className="form-control form-control-lg" placeholder="Search" onChange={this.handleSearchChange} />
         </nav>
         <ul className="route-list list-group">
           {
@@ -49,7 +49,7 @@ class RouteList extends Component {
                 key={route.id}
                 route={route}
                 active={isActive}
-                ref={listItem => this.listItems[route.id] = listItem}
+                ref={listItem => listItem != null && this.listItems.push(listItem)}
               />
             })
           }
@@ -60,13 +60,22 @@ class RouteList extends Component {
 
   handleSearchChange(e) {
     this.setState({search: e.target.value});
-    document.body.scrollTop = 0;
+
+    if (e.target.value === '') {
+      // user is canceling search, keep scrollTop at first item that was visible before cancel
+      let item = this.listItems.find(listItem => {
+        return listItem.el.offsetTop > document.body.scrollTop;
+      });
+      this.keepItemScrollPos(item);
+    } else {
+      document.body.scrollTop = 0;
+    }
   }
 
   handleRouteClick(route) {
     return (() => {
 
-      this.rememberPosition(this.listItems[route.id]); // TODO: tohle je divny
+      this.keepItemScrollPos(this._getListItemById(route.id));
       this.setState({activeRoute: route});
     });
   }
@@ -83,27 +92,28 @@ class RouteList extends Component {
     this.updateScrollTop();
   }
 
-  rememberPosition(listItem) {
-    this.offsetTopBeforeUpdate = listItem.el.offsetTop;
-    this.scrollTopBeforeUpdate = document.body.scrollTop;
+  keepItemScrollPos(listItem) {
+    this.keepScrollPos = {
+      listItem: listItem,
+      offsetTopBeforeUpdate: listItem.el.offsetTop,
+      scrollTopBeforeUpdate: document.body.scrollTop
+    };
   }
 
   updateScrollTop() {
-    let offsetTopBeforeUpdate = this.offsetTopBeforeUpdate;
-    let scrollTopBeforeUpdate = this.scrollTopBeforeUpdate;
-    this.offsetTopBeforeUpdate = null;
-    this.scrollTopBeforeUpdate = null;
+    let scrollPos = this.keepScrollPos;
+    this.keepScrollPos = null;
 
-    if (document.body.scrollTop !== scrollTopBeforeUpdate || !this.state.activeRoute) {
+    if (scrollPos && document.body.scrollTop !== scrollPos.scrollTopBeforeUpdate ) {
       // do not mess with scrollTop if user is actively scrolling
       return;
     }
 
-    let listItem = this.listItems[this.state.activeRoute.id];
+    let listItem = scrollPos.listItem;
 
     // make sure position of newly selected route does not change
-    if (offsetTopBeforeUpdate) {
-      let beforeUpdate = offsetTopBeforeUpdate;
+    if (scrollPos.offsetTopBeforeUpdate) {
+      let beforeUpdate = scrollPos.offsetTopBeforeUpdate;
       let afterUpdate = listItem.el.offsetTop;
       let change = afterUpdate - beforeUpdate;
       document.body.scrollTop += change;
@@ -115,6 +125,10 @@ class RouteList extends Component {
       // TODO: why +98?
       document.body.scrollTop = listItem.el.offsetTop + listItem.el.offsetHeight - window.innerHeight + 98;
     }
+  }
+
+  _getListItemById(id) {
+    return this.listItems.find(item => item.props.route.id === id);
   }
 
 }

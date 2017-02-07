@@ -161,10 +161,9 @@ class RouteListItem extends Component {
             </div>
           </div>
         </div>
+        <div className="w-100"></div>
         {active ? (
-            <div className="row">
-              <div className="col"><RouteDetail route={route}/></div>
-            </div>
+          <div className="col p-0"><RouteDetail route={route}/></div>
           ) : null}
       </li>
     )

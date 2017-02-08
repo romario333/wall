@@ -14,7 +14,7 @@ class RouteListItem extends Component {
           ref={el => this.el = el}
       >
         <div className="col">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-auto">
               <div className={`route-difficulty h1 align-middle route-color-${contrast(route.color || '#fff')}`}
                    style={{backgroundColor: route.color}}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import RouteList from './RouteList';
+import RouteList from './routes/RouteList';
 import './App.css';
 
 class App extends Component {

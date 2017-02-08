@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import fuzzy from 'fuzzy';
 import deburr from 'lodash.deburr';
 import 'whatwg-fetch';
-import classNames from 'classnames';
-import contrast from 'contrast';
 import './RouteList.css';
+import RouteListItem from './RouteListItem';
+import SearchInput from './SearchInput';
 
 // TODO: for now let's compile routes.json into the bundle, so I don't have to care about caching
-import routes from '../public/routes.json';
+import routes from '../../public/routes.json';
 
 class RouteList extends Component {
   constructor(props) {
@@ -37,7 +37,7 @@ class RouteList extends Component {
     return (
       <div>
         <nav className="navbar fixed-top navbar-light bg-faded" ref={el => this.searchBar = el}>
-          <input type="search" className="form-control form-control-lg" placeholder="Search" onChange={this.handleSearchChange} />
+          <SearchInput className="form-control form-control-lg" placeholder="Search" onChange={this.handleSearchChange} onSearch={this.handleSearch} />
         </nav>
         <ul className="route-list list-group">
           {
@@ -69,6 +69,14 @@ class RouteList extends Component {
       this._rememberItemScrollPos(item);
     } else {
       document.body.scrollTop = 0;
+    }
+  }
+
+  // invoked when search is completed
+  handleSearch() {
+    if (document.activeElement) {
+      // hide on-screen keyboard
+      document.activeElement.blur();
     }
   }
 
@@ -141,66 +149,6 @@ class RouteList extends Component {
     return this.listItems.find(item => item.props.route.id === id);
   }
 
-}
-
-class RouteListItem extends Component {
-  render() {
-    let route = this.props.route;
-    let active = this.props.active;
-
-    return (
-      <li className={classNames({'list-group-item': true, 'route-list-item-active': active})}
-          onClick={this.props.onClick}
-          ref={el => this.el = el}
-      >
-        <div className="col">
-          <div className="row">
-            <div className="col-auto">
-              <div className={`route-difficulty h1 align-middle route-color-${contrast(route.color || '#fff')}`}
-                   style={{backgroundColor: route.color}}
-              >
-                {route.difficulty}
-              </div>
-            </div>
-            <div className="col">
-              <div className="row">
-                <div className="col-9">
-                  <div className="h5">{route.name}</div>
-                  <div className="text-muted">{route.traits.join(', ')}</div>
-                </div>
-                <div className="col text-right text-muted">
-                  <div>#{route.lineNumber}</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {active ? (
-              <div className="row">
-                <div className="col p-0"><RouteDetail route={route}/></div>
-              </div>
-            ) : null}
-        </div>
-      </li>
-    )
-  }
-}
-
-function RouteDetail({route}) {
-  return (
-    <div>
-      <hr/>
-      { route.expired ? <div className="alert alert-warning"><strong>Expired Route</strong> This route is expired and will be decommissioned soon.</div> : null }
-      <dl className="row">
-        <dt className="col-3">Created</dt>
-        <dd className="col-9">{route.created}</dd>
-        <dt className="col-3">Author</dt>
-        <dd className="col-9">{route.author}</dd>
-        <dt className="col-3">Sector</dt>
-        <dd className="col-9">{route.sector}</dd>
-      </dl>
-      <a href={`http://wallonsight.com/routes/detail/${route.id}`} target="_blank">More Details</a>
-    </div>
-  )
 }
 
 export default RouteList;

@@ -36,7 +36,7 @@ class RouteList extends Component {
 
     return (
       <div>
-        <nav className="navbar fixed-top navbar-light bg-faded">
+        <nav className="navbar fixed-top navbar-light bg-faded" ref={el => this.searchBar = el}>
           <input type="search" className="form-control form-control-lg" placeholder="Search" onChange={this.handleSearchChange} />
         </nav>
         <ul className="route-list list-group">
@@ -66,7 +66,7 @@ class RouteList extends Component {
       let item = this.listItems.find(listItem => {
         return listItem.el.offsetTop > document.body.scrollTop;
       });
-      this.keepItemScrollPos(item);
+      this._rememberItemScrollPos(item);
     } else {
       document.body.scrollTop = 0;
     }
@@ -75,7 +75,7 @@ class RouteList extends Component {
   handleRouteClick(route) {
     return (() => {
 
-      this.keepItemScrollPos(this._getListItemById(route.id));
+      this._rememberItemScrollPos(this._getListItemById(route.id));
       this.setState({activeRoute: route});
     });
   }
@@ -89,10 +89,11 @@ class RouteList extends Component {
   }
 
   componentDidUpdate() {
-    this.updateScrollTop();
+    this._restoreItemScrollPos();
+    this._ensureActiveItemVisible();
   }
 
-  keepItemScrollPos(listItem) {
+  _rememberItemScrollPos(listItem) {
     this.keepScrollPos = {
       listItem: listItem,
       offsetTopBeforeUpdate: listItem.el.offsetTop,
@@ -100,7 +101,11 @@ class RouteList extends Component {
     };
   }
 
-  updateScrollTop() {
+  _restoreItemScrollPos() {
+    if (!this.keepScrollPos) {
+      return;
+    }
+
     let scrollPos = this.keepScrollPos;
     this.keepScrollPos = null;
 
@@ -111,19 +116,24 @@ class RouteList extends Component {
 
     let listItem = scrollPos.listItem;
 
-    // make sure position of newly selected route does not change
-    if (scrollPos.offsetTopBeforeUpdate) {
-      let beforeUpdate = scrollPos.offsetTopBeforeUpdate;
-      let afterUpdate = listItem.el.offsetTop;
-      let change = afterUpdate - beforeUpdate;
-      document.body.scrollTop += change;
-    }
+    // make sure scrollTop of remembered row does not change
+    let beforeUpdate = scrollPos.offsetTopBeforeUpdate;
+    let afterUpdate = listItem.el.offsetTop;
+    let change = afterUpdate - beforeUpdate;
+    document.body.scrollTop += change;
+  }
 
-    // scroll if active route does not fit the screen
-    if (listItem.el.offsetTop + listItem.el.offsetHeight > document.body.scrollTop + window.innerHeight) {
-      //listItem.el.scrollIntoView(false);
-      // TODO: why +98?
-      document.body.scrollTop = listItem.el.offsetTop + listItem.el.offsetHeight - window.innerHeight + 98;
+  _ensureActiveItemVisible() {
+    let listItem = this.listItems.find(item => item.props.route === this.state.activeRoute);
+    if (listItem) {
+      if (listItem.el.offsetTop + listItem.el.offsetHeight > document.body.scrollTop + window.innerHeight) {
+        //listItem.el.scrollIntoView(false);
+        document.body.scrollTop = listItem.el.offsetTop + listItem.el.offsetHeight - window.innerHeight;
+      }
+
+      if (listItem.el.offsetTop < document.body.scrollTop + this.searchBar.offsetHeight) {
+        document.body.scrollTop = listItem.el.offsetTop - this.searchBar.offsetHeight;
+      }
     }
   }
 

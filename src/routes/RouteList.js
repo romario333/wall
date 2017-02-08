@@ -37,7 +37,12 @@ class RouteList extends Component {
     return (
       <div>
         <nav className="navbar fixed-top navbar-light bg-faded" ref={el => this.searchBar = el}>
-          <SearchInput className="form-control form-control-lg" placeholder="Search" onChange={this.handleSearchChange} onSearch={this.handleSearch} />
+          <SearchInput
+            className="form-control form-control-lg"
+            placeholder="Search"
+            value={this.state.search}
+            onChange={this.handleSearchChange}
+            onSearch={this.handleSearch} />
         </nav>
         <ul className="route-list list-group">
           {
@@ -82,9 +87,8 @@ class RouteList extends Component {
 
   handleRouteClick(route) {
     return (() => {
-
       this._rememberItemScrollPos(this._getListItemById(route.id));
-      this.setState({activeRoute: route});
+      this.setState({activeRoute: route, search: ''});
     });
   }
 

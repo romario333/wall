@@ -143,28 +143,33 @@ class RouteListItem extends Component {
           onClick={this.props.onClick}
           ref={el => this.el = el}
       >
-        <div className="col-auto">
-          <div className={`route-difficulty h1 align-middle route-color-${contrast(route.color || '#fff')}`}
-               style={{backgroundColor: route.color}}
-          >
-            {route.difficulty}
-          </div>
-        </div>
         <div className="col">
           <div className="row">
-            <div className="col-9">
-              <div className="h5">{route.name}</div>
-              <div className="text-muted">{route.traits.join(', ')}</div>
+            <div className="col-auto">
+              <div className={`route-difficulty h1 align-middle route-color-${contrast(route.color || '#fff')}`}
+                   style={{backgroundColor: route.color}}
+              >
+                {route.difficulty}
+              </div>
             </div>
-            <div className="col text-right text-muted">
-              <div>#{route.lineNumber}</div>
+            <div className="col">
+              <div className="row">
+                <div className="col-9">
+                  <div className="h5">{route.name}</div>
+                  <div className="text-muted">{route.traits.join(', ')}</div>
+                </div>
+                <div className="col text-right text-muted">
+                  <div>#{route.lineNumber}</div>
+                </div>
+              </div>
             </div>
           </div>
+          {active ? (
+              <div className="row">
+                <div className="col p-0"><RouteDetail route={route}/></div>
+              </div>
+            ) : null}
         </div>
-        <div className="w-100"></div>
-        {active ? (
-          <div className="col p-0"><RouteDetail route={route}/></div>
-          ) : null}
       </li>
     )
   }

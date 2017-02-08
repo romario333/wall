@@ -140,7 +140,7 @@ class RouteList extends Component {
     if (listItem) {
       if (listItem.el.offsetTop + listItem.el.offsetHeight > document.body.scrollTop + window.innerHeight) {
         //listItem.el.scrollIntoView(false);
-        document.body.scrollTop = listItem.el.offsetTop + listItem.el.offsetHeight - window.innerHeight;
+        document.body.scrollTop = listItem.el.offsetTop + listItem.el.offsetHeight - window.innerHeight + 12;
       }
 
       if (listItem.el.offsetTop < document.body.scrollTop + this.searchBar.offsetHeight) {

@@ -17,12 +17,10 @@ class RouteList extends Component {
       routes: [],
       activeRoute: null
     };
+    this.afterUpdate = createTaskQueue();
 
     this.handleSearchChange = this.handleSearchChange.bind(this);
     this.handleRouteClick = this.handleRouteClick.bind(this);
-    this._ensureItemVisible = this._ensureItemVisible.bind(this);
-    this._restoreItemScrollPos = this._restoreItemScrollPos.bind(this);
-    this.afterUpdate = createTaskQueue();
   }
 
   componentDidMount() {
@@ -78,7 +76,7 @@ class RouteList extends Component {
       let item = this.listItems.find(listItem => {
         return listItem.el.offsetTop > document.body.scrollTop;
       });
-      this._rememberItemScrollPos(item);
+      this.keepScrollAt(item);
     } else {
       document.body.scrollTop = 0;
     }
@@ -97,12 +95,10 @@ class RouteList extends Component {
       this.setState({activeRoute: route, search: ''});
 
       let listItem = this.listItems.find(item => item.props.route.id === route.id);
-      let offsetTopBeforeUpdate = listItem.el.offsetTop;
-      let scrollTopBeforeUpdate = document.body.scrollTop;
 
+      this.keepScrollAt(listItem);
       this.afterUpdate(() => {
-        this._restoreItemScrollPos(listItem, offsetTopBeforeUpdate, scrollTopBeforeUpdate);
-        this._ensureItemVisible(listItem);
+        this.ensureItemVisible(listItem);
       });
     });
   }
@@ -113,6 +109,20 @@ class RouteList extends Component {
         extract: route => deburr(route.name) // deburr removes diactritics
       })
       .map(res => res.original);
+  }
+
+  /**
+   * Make sure listItem does not change position within scrollable area after update.
+   *
+   * @param listItem
+   */
+  keepScrollAt(listItem) {
+    let offsetTopBeforeUpdate = listItem.el.offsetTop;
+    let scrollTopBeforeUpdate = document.body.scrollTop;
+
+    this.afterUpdate(() => {
+      this._restoreItemScrollPos(listItem, offsetTopBeforeUpdate, scrollTopBeforeUpdate);
+    })
   }
 
   _restoreItemScrollPos(listItem, offsetTopBeforeUpdate, scrollTopBeforeUpdate) {
@@ -128,7 +138,7 @@ class RouteList extends Component {
     document.body.scrollTop += change;
   }
 
-  _ensureItemVisible(listItem) {
+  ensureItemVisible(listItem) {
     if (listItem.el.offsetTop + listItem.el.offsetHeight > document.body.scrollTop + window.innerHeight) {
       //listItem.el.scrollIntoView(false);
       document.body.scrollTop = listItem.el.offsetTop + listItem.el.offsetHeight - window.innerHeight + 12;
@@ -154,7 +164,7 @@ function createTaskQueue() {
 
   queueTask.flush = function() {
     let task;
-    while ((task = tasks.pop()) !== undefined) { // eslint-disable-line no-cond-assign
+    while ((task = tasks.shift()) !== undefined) { // eslint-disable-line no-cond-assign
       task();
     }
   };

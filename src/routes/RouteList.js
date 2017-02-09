@@ -20,6 +20,9 @@ class RouteList extends Component {
 
     this.handleSearchChange = this.handleSearchChange.bind(this);
     this.handleRouteClick = this.handleRouteClick.bind(this);
+    this._ensureItemVisible = this._ensureItemVisible.bind(this);
+    this._restoreItemScrollPos = this._restoreItemScrollPos.bind(this);
+    this.afterUpdate = createTaskQueue();
   }
 
   componentDidMount() {
@@ -29,6 +32,10 @@ class RouteList extends Component {
     //   .then((routes) => {
     //     this.setState({routes});
     //   })
+  }
+
+  componentDidUpdate() {
+    this.afterUpdate.flush();
   }
 
   render() {
@@ -87,8 +94,16 @@ class RouteList extends Component {
 
   handleRouteClick(route) {
     return (() => {
-      this._rememberItemScrollPos(this._getListItemById(route.id));
       this.setState({activeRoute: route, search: ''});
+
+      let listItem = this.listItems.find(item => item.props.route.id === route.id);
+      let offsetTopBeforeUpdate = listItem.el.offsetTop;
+      let scrollTopBeforeUpdate = document.body.scrollTop;
+
+      this.afterUpdate(() => {
+        this._restoreItemScrollPos(listItem, offsetTopBeforeUpdate, scrollTopBeforeUpdate);
+        this._ensureItemVisible(listItem);
+      });
     });
   }
 
@@ -100,59 +115,52 @@ class RouteList extends Component {
       .map(res => res.original);
   }
 
-  componentDidUpdate() {
-    this._restoreItemScrollPos();
-    this._ensureActiveItemVisible();
-  }
-
-  _rememberItemScrollPos(listItem) {
-    this.keepScrollPos = {
-      listItem: listItem,
-      offsetTopBeforeUpdate: listItem.el.offsetTop,
-      scrollTopBeforeUpdate: document.body.scrollTop
-    };
-  }
-
-  _restoreItemScrollPos() {
-    if (!this.keepScrollPos) {
-      return;
-    }
-
-    let scrollPos = this.keepScrollPos;
-    this.keepScrollPos = null;
-
-    if (scrollPos && document.body.scrollTop !== scrollPos.scrollTopBeforeUpdate ) {
+  _restoreItemScrollPos(listItem, offsetTopBeforeUpdate, scrollTopBeforeUpdate) {
+    if (document.body.scrollTop !== scrollTopBeforeUpdate ) {
       // do not mess with scrollTop if user is actively scrolling
       return;
     }
 
-    let listItem = scrollPos.listItem;
-
     // make sure scrollTop of remembered row does not change
-    let beforeUpdate = scrollPos.offsetTopBeforeUpdate;
+    let beforeUpdate = offsetTopBeforeUpdate;
     let afterUpdate = listItem.el.offsetTop;
     let change = afterUpdate - beforeUpdate;
     document.body.scrollTop += change;
   }
 
-  _ensureActiveItemVisible() {
-    let listItem = this.listItems.find(item => item.props.route === this.state.activeRoute);
-    if (listItem) {
-      if (listItem.el.offsetTop + listItem.el.offsetHeight > document.body.scrollTop + window.innerHeight) {
-        //listItem.el.scrollIntoView(false);
-        document.body.scrollTop = listItem.el.offsetTop + listItem.el.offsetHeight - window.innerHeight + 12;
-      }
+  _ensureItemVisible(listItem) {
+    if (listItem.el.offsetTop + listItem.el.offsetHeight > document.body.scrollTop + window.innerHeight) {
+      //listItem.el.scrollIntoView(false);
+      document.body.scrollTop = listItem.el.offsetTop + listItem.el.offsetHeight - window.innerHeight + 12;
+    }
 
-      if (listItem.el.offsetTop < document.body.scrollTop + this.searchBar.offsetHeight) {
-        document.body.scrollTop = listItem.el.offsetTop - this.searchBar.offsetHeight;
-      }
+    if (listItem.el.offsetTop < document.body.scrollTop + this.searchBar.offsetHeight) {
+      document.body.scrollTop = listItem.el.offsetTop - this.searchBar.offsetHeight;
     }
   }
 
   _getListItemById(id) {
     return this.listItems.find(item => item.props.route.id === id);
   }
-
 }
+
+
+function createTaskQueue() {
+  const tasks = [];
+
+  function queueTask(task) {
+    tasks.push(task);
+  }
+
+  queueTask.flush = function() {
+    let task;
+    while ((task = tasks.pop()) !== undefined) { // eslint-disable-line no-cond-assign
+      task();
+    }
+  };
+
+  return queueTask;
+}
+
 
 export default RouteList;

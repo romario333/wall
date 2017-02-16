@@ -22,6 +22,6 @@ npm run deploy
 ## TODO:
 
 - turn into progressive web app
-  - https://infrequently.org/2016/09/what-exactly-makes-something-a-progressive-web-app/
-  - https://developers.google.com/web/fundamentals/getting-started/primers/service-workers
+  - https://github.com/jeffposnick/create-react-pwa
+
 

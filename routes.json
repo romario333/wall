@@ -1,0 +1,3752 @@
+[
+  {
+    "id": "1",
+    "expired": false,
+    "color": "#f6eb0b",
+    "name": "laborum sequi voluptate",
+    "difficulty": "9+",
+    "sector": "A",
+    "lineNumber": 0,
+    "author": "Eli Roob",
+    "created": "24.09.2016",
+    "traits": [
+      "Know-how",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "2",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "voluptas tempora eum",
+    "difficulty": "8+",
+    "sector": "A",
+    "lineNumber": 1,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "08.06.2016",
+    "traits": [
+      "Technika",
+      "Síla"
+    ]
+  },
+  {
+    "id": "3",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "ducimus eveniet minus",
+    "difficulty": "7+",
+    "sector": "A",
+    "lineNumber": 1,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "22.07.2016",
+    "traits": [
+      "Technika",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "4",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "voluptatum minus et",
+    "difficulty": "3+",
+    "sector": "A",
+    "lineNumber": 2,
+    "author": "Miss Thalia Hermann",
+    "created": "01.02.2017",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Technika"
+    ]
+  },
+  {
+    "id": "5",
+    "expired": false,
+    "color": "#000000",
+    "name": "ullam ex sapiente",
+    "difficulty": "9+",
+    "sector": "A",
+    "lineNumber": 2,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "23.03.2016",
+    "traits": [
+      "Síla",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "6",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "minima qui repudiandae",
+    "difficulty": "9+",
+    "sector": "A",
+    "lineNumber": 3,
+    "author": "Adelia Parisian",
+    "created": "11.08.2016",
+    "traits": [
+      "Know-how",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "7",
+    "expired": false,
+    "color": "#000000",
+    "name": "voluptas doloremque delectus",
+    "difficulty": 6,
+    "sector": "A",
+    "lineNumber": 3,
+    "author": "Adelia Parisian",
+    "created": "07.10.2016",
+    "traits": [
+      "Know-how",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "8",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "amet hic voluptas",
+    "difficulty": "10+",
+    "sector": "A",
+    "lineNumber": 4,
+    "author": "Anastasia Hessel",
+    "created": "01.11.2016",
+    "traits": [
+      "Dětská",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "9",
+    "expired": false,
+    "color": "#000000",
+    "name": "necessitatibus rerum qui",
+    "difficulty": "5+",
+    "sector": "A",
+    "lineNumber": 4,
+    "author": "Miss Thalia Hermann",
+    "created": "04.03.2016",
+    "traits": [
+      "Síla",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "10",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "est rem quaerat",
+    "difficulty": "9+",
+    "sector": "A",
+    "lineNumber": 5,
+    "author": "Anastasia Hessel",
+    "created": "10.06.2016",
+    "traits": [
+      "Převislá",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "11",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "possimus vitae possimus",
+    "difficulty": "6+",
+    "sector": "A",
+    "lineNumber": 5,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "25.09.2016",
+    "traits": [
+      "Převislá",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "12",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "id quae sit",
+    "difficulty": "8+",
+    "sector": "A",
+    "lineNumber": 6,
+    "author": "Miss Thalia Hermann",
+    "created": "27.02.2016",
+    "traits": [
+      "Know-how",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "13",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "et facere aperiam",
+    "difficulty": "8+",
+    "sector": "A",
+    "lineNumber": 6,
+    "author": "Eli Roob",
+    "created": "28.03.2016",
+    "traits": [
+      "Převislá",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "14",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "eum cum molestiae",
+    "difficulty": "8+",
+    "sector": "A",
+    "lineNumber": 7,
+    "author": "Eli Roob",
+    "created": "15.10.2016",
+    "traits": [
+      "Technika",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "15",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "enim qui debitis",
+    "difficulty": 7,
+    "sector": "A",
+    "lineNumber": 7,
+    "author": "Eli Roob",
+    "created": "18.03.2016",
+    "traits": [
+      "Převislá",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "16",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "est enim est",
+    "difficulty": 3,
+    "sector": "A",
+    "lineNumber": 8,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "28.07.2016",
+    "traits": [
+      "Síla",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "17",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "velit sequi quasi",
+    "difficulty": 5,
+    "sector": "A",
+    "lineNumber": 8,
+    "author": "Eli Roob",
+    "created": "21.09.2016",
+    "traits": [
+      "Know-how",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "18",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "et velit accusamus",
+    "difficulty": 5,
+    "sector": "A",
+    "lineNumber": 9,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "17.11.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Technika"
+    ]
+  },
+  {
+    "id": "19",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "consequatur libero nulla",
+    "difficulty": 11,
+    "sector": "A",
+    "lineNumber": 9,
+    "author": "Anastasia Hessel",
+    "created": "23.06.2016",
+    "traits": [
+      "Síla",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "20",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "incidunt qui rerum",
+    "difficulty": 8,
+    "sector": "B",
+    "lineNumber": 10,
+    "author": "Anastasia Hessel",
+    "created": "30.01.2017",
+    "traits": [
+      "Síla",
+      "Síla"
+    ]
+  },
+  {
+    "id": "21",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "sunt ut et",
+    "difficulty": "7+",
+    "sector": "B",
+    "lineNumber": 10,
+    "author": "Adelia Parisian",
+    "created": "21.11.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Technika"
+    ]
+  },
+  {
+    "id": "22",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "reiciendis aut tenetur",
+    "difficulty": 11,
+    "sector": "B",
+    "lineNumber": 11,
+    "author": "Eli Roob",
+    "created": "25.09.2016",
+    "traits": [
+      "Převislá",
+      "Technika"
+    ]
+  },
+  {
+    "id": "23",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "at fugiat est",
+    "difficulty": "6+",
+    "sector": "B",
+    "lineNumber": 11,
+    "author": "Adelia Parisian",
+    "created": "18.04.2016",
+    "traits": [
+      "Převislá",
+      "Síla"
+    ]
+  },
+  {
+    "id": "24",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "totam doloribus aut",
+    "difficulty": 3,
+    "sector": "B",
+    "lineNumber": 12,
+    "author": "Anastasia Hessel",
+    "created": "07.01.2017",
+    "traits": [
+      "Síla",
+      "Technika"
+    ]
+  },
+  {
+    "id": "25",
+    "expired": false,
+    "color": "#f6eb0b",
+    "name": "dolores et ipsa",
+    "difficulty": "11+",
+    "sector": "B",
+    "lineNumber": 12,
+    "author": "Miss Thalia Hermann",
+    "created": "31.10.2016",
+    "traits": [
+      "Dětská",
+      "Síla"
+    ]
+  },
+  {
+    "id": "26",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "laboriosam perferendis esse",
+    "difficulty": "8+",
+    "sector": "B",
+    "lineNumber": 13,
+    "author": "Anastasia Hessel",
+    "created": "07.03.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "27",
+    "expired": false,
+    "color": "#000000",
+    "name": "alias quaerat magnam",
+    "difficulty": 4,
+    "sector": "B",
+    "lineNumber": 13,
+    "author": "Adelia Parisian",
+    "created": "05.06.2016",
+    "traits": [
+      "Síla",
+      "Síla"
+    ]
+  },
+  {
+    "id": "28",
+    "expired": false,
+    "color": "#f6eb0b",
+    "name": "facilis atque et",
+    "difficulty": "8+",
+    "sector": "B",
+    "lineNumber": 14,
+    "author": "Adelia Parisian",
+    "created": "10.03.2016",
+    "traits": [
+      "Síla",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "29",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "iure sed nam",
+    "difficulty": "11+",
+    "sector": "B",
+    "lineNumber": 14,
+    "author": "Miss Thalia Hermann",
+    "created": "29.02.2016",
+    "traits": [
+      "Dětská",
+      "Síla"
+    ]
+  },
+  {
+    "id": "30",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "recusandae est velit",
+    "difficulty": "9+",
+    "sector": "B",
+    "lineNumber": 15,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "11.04.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "31",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "odit et est",
+    "difficulty": "5+",
+    "sector": "B",
+    "lineNumber": 15,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "13.12.2016",
+    "traits": [
+      "Převislá",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "32",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "deleniti dolore sint",
+    "difficulty": "4+",
+    "sector": "B",
+    "lineNumber": 16,
+    "author": "Anastasia Hessel",
+    "created": "31.05.2016",
+    "traits": [
+      "Know-how",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "33",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "et neque aliquid",
+    "difficulty": "3+",
+    "sector": "B",
+    "lineNumber": 16,
+    "author": "Adelia Parisian",
+    "created": "16.06.2016",
+    "traits": [
+      "Převislá",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "34",
+    "expired": true,
+    "color": "#1e5626",
+    "name": "asperiores ipsum cupiditate",
+    "difficulty": "8+",
+    "sector": "B",
+    "lineNumber": 17,
+    "author": "Adelia Parisian",
+    "created": "11.01.2017",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "35",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "suscipit omnis nihil",
+    "difficulty": "9+",
+    "sector": "B",
+    "lineNumber": 17,
+    "author": "Anastasia Hessel",
+    "created": "02.01.2017",
+    "traits": [
+      "Převislá",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "36",
+    "expired": false,
+    "color": "#000000",
+    "name": "quod eos repellat",
+    "difficulty": "7+",
+    "sector": "B",
+    "lineNumber": 18,
+    "author": "Adelia Parisian",
+    "created": "11.06.2016",
+    "traits": [
+      "Síla",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "37",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "architecto aut vero",
+    "difficulty": "11+",
+    "sector": "B",
+    "lineNumber": 18,
+    "author": "Adelia Parisian",
+    "created": "02.11.2016",
+    "traits": [
+      "Know-how",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "38",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "et molestiae velit",
+    "difficulty": "3+",
+    "sector": "B",
+    "lineNumber": 19,
+    "author": "Anastasia Hessel",
+    "created": "23.11.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "39",
+    "expired": true,
+    "color": "#000000",
+    "name": "autem autem sint",
+    "difficulty": "3+",
+    "sector": "B",
+    "lineNumber": 19,
+    "author": "Adelia Parisian",
+    "created": "29.03.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "40",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "sed cum libero",
+    "difficulty": 4,
+    "sector": "C",
+    "lineNumber": 20,
+    "author": "Anastasia Hessel",
+    "created": "20.08.2016",
+    "traits": [
+      "Technika",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "41",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "dolor sit aut",
+    "difficulty": 7,
+    "sector": "C",
+    "lineNumber": 20,
+    "author": "Eli Roob",
+    "created": "02.09.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "42",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "voluptas nulla ea",
+    "difficulty": "6+",
+    "sector": "C",
+    "lineNumber": 21,
+    "author": "Anastasia Hessel",
+    "created": "26.01.2017",
+    "traits": [
+      "Síla",
+      "Síla"
+    ]
+  },
+  {
+    "id": "43",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "accusamus architecto qui",
+    "difficulty": "5+",
+    "sector": "C",
+    "lineNumber": 21,
+    "author": "Adelia Parisian",
+    "created": "09.06.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "44",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "velit numquam quos",
+    "difficulty": "6+",
+    "sector": "C",
+    "lineNumber": 22,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "10.10.2016",
+    "traits": [
+      "Síla",
+      "Technika"
+    ]
+  },
+  {
+    "id": "45",
+    "expired": true,
+    "color": "#000000",
+    "name": "quod aut nobis",
+    "difficulty": 5,
+    "sector": "C",
+    "lineNumber": 22,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "06.01.2017",
+    "traits": [
+      "Know-how",
+      "Technika"
+    ]
+  },
+  {
+    "id": "46",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "quos in assumenda",
+    "difficulty": 5,
+    "sector": "C",
+    "lineNumber": 23,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "29.04.2016",
+    "traits": [
+      "Know-how",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "47",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "eveniet vitae hic",
+    "difficulty": "8+",
+    "sector": "C",
+    "lineNumber": 23,
+    "author": "Eli Roob",
+    "created": "07.12.2016",
+    "traits": [
+      "Převislá",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "48",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "ratione quo quis",
+    "difficulty": "8+",
+    "sector": "C",
+    "lineNumber": 24,
+    "author": "Adelia Parisian",
+    "created": "21.07.2016",
+    "traits": [
+      "Technika",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "49",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "mollitia cumque quo",
+    "difficulty": "9+",
+    "sector": "C",
+    "lineNumber": 24,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "02.03.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "50",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "ipsum enim ut",
+    "difficulty": "7+",
+    "sector": "C",
+    "lineNumber": 25,
+    "author": "Adelia Parisian",
+    "created": "09.09.2016",
+    "traits": [
+      "Síla",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "51",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "amet commodi doloremque",
+    "difficulty": "6+",
+    "sector": "C",
+    "lineNumber": 25,
+    "author": "Eli Roob",
+    "created": "09.07.2016",
+    "traits": [
+      "Dětská",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "52",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "deleniti tempora corrupti",
+    "difficulty": 5,
+    "sector": "C",
+    "lineNumber": 26,
+    "author": "Eli Roob",
+    "created": "04.12.2016",
+    "traits": [
+      "Dětská",
+      "Síla"
+    ]
+  },
+  {
+    "id": "53",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "libero sed assumenda",
+    "difficulty": "9+",
+    "sector": "C",
+    "lineNumber": 26,
+    "author": "Eli Roob",
+    "created": "16.12.2016",
+    "traits": [
+      "Síla",
+      "Technika"
+    ]
+  },
+  {
+    "id": "54",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "velit quasi earum",
+    "difficulty": "8+",
+    "sector": "C",
+    "lineNumber": 27,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "11.07.2016",
+    "traits": [
+      "Síla",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "55",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "amet aut incidunt",
+    "difficulty": "11+",
+    "sector": "C",
+    "lineNumber": 27,
+    "author": "Miss Thalia Hermann",
+    "created": "21.02.2016",
+    "traits": [
+      "Technika",
+      "Technika"
+    ]
+  },
+  {
+    "id": "56",
+    "expired": true,
+    "color": "#000000",
+    "name": "eveniet fuga incidunt",
+    "difficulty": "4+",
+    "sector": "C",
+    "lineNumber": 28,
+    "author": "Adelia Parisian",
+    "created": "22.04.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "57",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "et doloremque qui",
+    "difficulty": 8,
+    "sector": "C",
+    "lineNumber": 28,
+    "author": "Adelia Parisian",
+    "created": "11.08.2016",
+    "traits": [
+      "Know-how",
+      "Síla"
+    ]
+  },
+  {
+    "id": "58",
+    "expired": false,
+    "color": "#f6eb0b",
+    "name": "ut sed molestiae",
+    "difficulty": "4+",
+    "sector": "C",
+    "lineNumber": 29,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "12.06.2016",
+    "traits": [
+      "Technika",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "59",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "velit quasi non",
+    "difficulty": "6+",
+    "sector": "C",
+    "lineNumber": 29,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "20.02.2016",
+    "traits": [
+      "Know-how",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "60",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "animi ut iusto",
+    "difficulty": "11+",
+    "sector": "D",
+    "lineNumber": 30,
+    "author": "Anastasia Hessel",
+    "created": "14.12.2016",
+    "traits": [
+      "Síla",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "61",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "inventore beatae nulla",
+    "difficulty": 6,
+    "sector": "D",
+    "lineNumber": 30,
+    "author": "Anastasia Hessel",
+    "created": "08.08.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "62",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "corrupti eum eos",
+    "difficulty": "3+",
+    "sector": "D",
+    "lineNumber": 31,
+    "author": "Eli Roob",
+    "created": "28.09.2016",
+    "traits": [
+      "Síla",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "63",
+    "expired": true,
+    "color": "#000000",
+    "name": "voluptas ea unde",
+    "difficulty": 5,
+    "sector": "D",
+    "lineNumber": 31,
+    "author": "Adelia Parisian",
+    "created": "25.04.2016",
+    "traits": [
+      "Převislá",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "64",
+    "expired": true,
+    "color": "#000000",
+    "name": "aut quo id",
+    "difficulty": "7+",
+    "sector": "D",
+    "lineNumber": 32,
+    "author": "Anastasia Hessel",
+    "created": "24.03.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Síla"
+    ]
+  },
+  {
+    "id": "65",
+    "expired": true,
+    "color": "#1e5626",
+    "name": "nulla perspiciatis dolorem",
+    "difficulty": "3+",
+    "sector": "D",
+    "lineNumber": 32,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "26.12.2016",
+    "traits": [
+      "Dětská",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "66",
+    "expired": false,
+    "color": "#000000",
+    "name": "eos debitis sed",
+    "difficulty": "3+",
+    "sector": "D",
+    "lineNumber": 33,
+    "author": "Eli Roob",
+    "created": "29.05.2016",
+    "traits": [
+      "Síla",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "67",
+    "expired": false,
+    "color": "#f507c9",
+    "name": "ex facere vero",
+    "difficulty": 9,
+    "sector": "D",
+    "lineNumber": 33,
+    "author": "Adelia Parisian",
+    "created": "14.06.2016",
+    "traits": [
+      "Převislá",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "68",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "voluptatem totam autem",
+    "difficulty": 9,
+    "sector": "D",
+    "lineNumber": 34,
+    "author": "Anastasia Hessel",
+    "created": "15.07.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "69",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "nihil eos quaerat",
+    "difficulty": 8,
+    "sector": "D",
+    "lineNumber": 34,
+    "author": "Anastasia Hessel",
+    "created": "12.12.2016",
+    "traits": [
+      "Technika",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "70",
+    "expired": true,
+    "color": "#1e5626",
+    "name": "aut atque ut",
+    "difficulty": 4,
+    "sector": "D",
+    "lineNumber": 35,
+    "author": "Adelia Parisian",
+    "created": "04.05.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Síla"
+    ]
+  },
+  {
+    "id": "71",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "deserunt est quia",
+    "difficulty": "11+",
+    "sector": "D",
+    "lineNumber": 35,
+    "author": "Eli Roob",
+    "created": "21.06.2016",
+    "traits": [
+      "Technika",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "72",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "autem repudiandae deleniti",
+    "difficulty": "8+",
+    "sector": "D",
+    "lineNumber": 36,
+    "author": "Eli Roob",
+    "created": "13.08.2016",
+    "traits": [
+      "Síla",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "73",
+    "expired": true,
+    "color": "#000000",
+    "name": "assumenda molestias temporibus",
+    "difficulty": 7,
+    "sector": "D",
+    "lineNumber": 36,
+    "author": "Adelia Parisian",
+    "created": "27.10.2016",
+    "traits": [
+      "Dětská",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "74",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "ex expedita quia",
+    "difficulty": 9,
+    "sector": "D",
+    "lineNumber": 37,
+    "author": "Anastasia Hessel",
+    "created": "21.06.2016",
+    "traits": [
+      "Technika",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "75",
+    "expired": true,
+    "color": "#1e5626",
+    "name": "vero blanditiis excepturi",
+    "difficulty": "3+",
+    "sector": "D",
+    "lineNumber": 37,
+    "author": "Anastasia Hessel",
+    "created": "16.08.2016",
+    "traits": [
+      "Technika",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "76",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "error quisquam a",
+    "difficulty": 5,
+    "sector": "D",
+    "lineNumber": 38,
+    "author": "Miss Thalia Hermann",
+    "created": "23.02.2016",
+    "traits": [
+      "Převislá",
+      "Síla"
+    ]
+  },
+  {
+    "id": "77",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "esse quis totam",
+    "difficulty": "9+",
+    "sector": "D",
+    "lineNumber": 38,
+    "author": "Anastasia Hessel",
+    "created": "08.09.2016",
+    "traits": [
+      "Know-how",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "78",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "qui ea ullam",
+    "difficulty": "6+",
+    "sector": "D",
+    "lineNumber": 39,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "24.09.2016",
+    "traits": [
+      "Síla",
+      "Technika"
+    ]
+  },
+  {
+    "id": "79",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "earum debitis a",
+    "difficulty": "6+",
+    "sector": "D",
+    "lineNumber": 39,
+    "author": "Adelia Parisian",
+    "created": "13.01.2017",
+    "traits": [
+      "Silně převislá/strop",
+      "Technika"
+    ]
+  },
+  {
+    "id": "80",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "similique odio et",
+    "difficulty": 7,
+    "sector": "E",
+    "lineNumber": 40,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "30.07.2016",
+    "traits": [
+      "Síla",
+      "Technika"
+    ]
+  },
+  {
+    "id": "81",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "quos dicta aut",
+    "difficulty": "9+",
+    "sector": "E",
+    "lineNumber": 40,
+    "author": "Eli Roob",
+    "created": "26.12.2016",
+    "traits": [
+      "Síla",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "82",
+    "expired": false,
+    "color": "#f507c9",
+    "name": "accusamus dolore nihil",
+    "difficulty": 11,
+    "sector": "E",
+    "lineNumber": 41,
+    "author": "Miss Thalia Hermann",
+    "created": "28.04.2016",
+    "traits": [
+      "Dětská",
+      "Síla"
+    ]
+  },
+  {
+    "id": "83",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "eligendi quas eaque",
+    "difficulty": "8+",
+    "sector": "E",
+    "lineNumber": 41,
+    "author": "Anastasia Hessel",
+    "created": "29.04.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "84",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "ut quo eius",
+    "difficulty": 8,
+    "sector": "E",
+    "lineNumber": 42,
+    "author": "Miss Thalia Hermann",
+    "created": "19.08.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "85",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "ea voluptatem occaecati",
+    "difficulty": "11+",
+    "sector": "E",
+    "lineNumber": 42,
+    "author": "Anastasia Hessel",
+    "created": "28.10.2016",
+    "traits": [
+      "Převislá",
+      "Síla"
+    ]
+  },
+  {
+    "id": "86",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "culpa voluptas earum",
+    "difficulty": "6+",
+    "sector": "E",
+    "lineNumber": 43,
+    "author": "Adelia Parisian",
+    "created": "25.06.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "87",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "pariatur in sit",
+    "difficulty": "9+",
+    "sector": "E",
+    "lineNumber": 43,
+    "author": "Anastasia Hessel",
+    "created": "18.09.2016",
+    "traits": [
+      "Převislá",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "88",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "quos vitae nostrum",
+    "difficulty": "8+",
+    "sector": "E",
+    "lineNumber": 44,
+    "author": "Miss Thalia Hermann",
+    "created": "29.11.2016",
+    "traits": [
+      "Technika",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "89",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "voluptatum mollitia autem",
+    "difficulty": "10+",
+    "sector": "E",
+    "lineNumber": 44,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "18.06.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "90",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "accusantium numquam sint",
+    "difficulty": 8,
+    "sector": "E",
+    "lineNumber": 45,
+    "author": "Anastasia Hessel",
+    "created": "17.09.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "91",
+    "expired": true,
+    "color": "#000000",
+    "name": "aut laboriosam sunt",
+    "difficulty": "7+",
+    "sector": "E",
+    "lineNumber": 45,
+    "author": "Adelia Parisian",
+    "created": "13.02.2017",
+    "traits": [
+      "Silně převislá/strop",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "92",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "ut ea aliquid",
+    "difficulty": "8+",
+    "sector": "E",
+    "lineNumber": 46,
+    "author": "Miss Thalia Hermann",
+    "created": "29.08.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Technika"
+    ]
+  },
+  {
+    "id": "93",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "inventore earum commodi",
+    "difficulty": "11+",
+    "sector": "E",
+    "lineNumber": 46,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "17.12.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "94",
+    "expired": false,
+    "color": "#000000",
+    "name": "deserunt sunt error",
+    "difficulty": 6,
+    "sector": "E",
+    "lineNumber": 47,
+    "author": "Adelia Parisian",
+    "created": "07.12.2016",
+    "traits": [
+      "Síla",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "95",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "sed sit accusantium",
+    "difficulty": "7+",
+    "sector": "E",
+    "lineNumber": 47,
+    "author": "Anastasia Hessel",
+    "created": "06.04.2016",
+    "traits": [
+      "Dětská",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "96",
+    "expired": true,
+    "color": "#1e5626",
+    "name": "consequatur sint placeat",
+    "difficulty": "6+",
+    "sector": "E",
+    "lineNumber": 48,
+    "author": "Eli Roob",
+    "created": "09.11.2016",
+    "traits": [
+      "Know-how",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "97",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "consectetur libero est",
+    "difficulty": "8+",
+    "sector": "E",
+    "lineNumber": 48,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "07.12.2016",
+    "traits": [
+      "Know-how",
+      "Technika"
+    ]
+  },
+  {
+    "id": "98",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "enim adipisci itaque",
+    "difficulty": "10+",
+    "sector": "E",
+    "lineNumber": 49,
+    "author": "Eli Roob",
+    "created": "11.07.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "99",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "molestiae dignissimos beatae",
+    "difficulty": 9,
+    "sector": "E",
+    "lineNumber": 49,
+    "author": "Miss Thalia Hermann",
+    "created": "14.02.2017",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Technika"
+    ]
+  },
+  {
+    "id": "100",
+    "expired": false,
+    "color": "#000000",
+    "name": "iure repellat id",
+    "difficulty": "11+",
+    "sector": "F",
+    "lineNumber": 50,
+    "author": "Adelia Parisian",
+    "created": "18.07.2016",
+    "traits": [
+      "Převislá",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "101",
+    "expired": true,
+    "color": "#1e5626",
+    "name": "voluptatem ut suscipit",
+    "difficulty": "4+",
+    "sector": "F",
+    "lineNumber": 50,
+    "author": "Miss Thalia Hermann",
+    "created": "14.10.2016",
+    "traits": [
+      "Technika",
+      "Síla"
+    ]
+  },
+  {
+    "id": "102",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "amet officia harum",
+    "difficulty": 8,
+    "sector": "F",
+    "lineNumber": 51,
+    "author": "Adelia Parisian",
+    "created": "20.02.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "103",
+    "expired": false,
+    "color": "#f507c9",
+    "name": "nihil vero dolorem",
+    "difficulty": 3,
+    "sector": "F",
+    "lineNumber": 51,
+    "author": "Anastasia Hessel",
+    "created": "27.12.2016",
+    "traits": [
+      "Převislá",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "104",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "et totam et",
+    "difficulty": "9+",
+    "sector": "F",
+    "lineNumber": 52,
+    "author": "Miss Thalia Hermann",
+    "created": "25.03.2016",
+    "traits": [
+      "Síla",
+      "Síla"
+    ]
+  },
+  {
+    "id": "105",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "suscipit assumenda deserunt",
+    "difficulty": "6+",
+    "sector": "F",
+    "lineNumber": 52,
+    "author": "Miss Thalia Hermann",
+    "created": "01.04.2016",
+    "traits": [
+      "Síla",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "106",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "et facilis pariatur",
+    "difficulty": "6+",
+    "sector": "F",
+    "lineNumber": 53,
+    "author": "Adelia Parisian",
+    "created": "15.03.2016",
+    "traits": [
+      "Technika",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "107",
+    "expired": false,
+    "color": "#f6eb0b",
+    "name": "dolores provident deleniti",
+    "difficulty": "9+",
+    "sector": "F",
+    "lineNumber": 53,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "13.02.2017",
+    "traits": [
+      "Síla",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "108",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "sint nam voluptate",
+    "difficulty": "6+",
+    "sector": "F",
+    "lineNumber": 54,
+    "author": "Adelia Parisian",
+    "created": "23.02.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "109",
+    "expired": false,
+    "color": "#000000",
+    "name": "modi et sed",
+    "difficulty": "5+",
+    "sector": "F",
+    "lineNumber": 54,
+    "author": "Eli Roob",
+    "created": "31.12.2016",
+    "traits": [
+      "Technika",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "110",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "qui voluptatibus et",
+    "difficulty": "11+",
+    "sector": "F",
+    "lineNumber": 55,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "27.05.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Technika"
+    ]
+  },
+  {
+    "id": "111",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "ipsa omnis impedit",
+    "difficulty": "5+",
+    "sector": "F",
+    "lineNumber": 55,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "22.11.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Síla"
+    ]
+  },
+  {
+    "id": "112",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "et consequatur minima",
+    "difficulty": "11+",
+    "sector": "F",
+    "lineNumber": 56,
+    "author": "Miss Thalia Hermann",
+    "created": "12.09.2016",
+    "traits": [
+      "Dětská",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "113",
+    "expired": true,
+    "color": "#000000",
+    "name": "in eos rerum",
+    "difficulty": "9+",
+    "sector": "F",
+    "lineNumber": 56,
+    "author": "Miss Thalia Hermann",
+    "created": "21.02.2016",
+    "traits": [
+      "Dětská",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "114",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "numquam nobis laborum",
+    "difficulty": 10,
+    "sector": "F",
+    "lineNumber": 57,
+    "author": "Miss Thalia Hermann",
+    "created": "04.05.2016",
+    "traits": [
+      "Převislá",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "115",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "non excepturi quia",
+    "difficulty": "6+",
+    "sector": "F",
+    "lineNumber": 57,
+    "author": "Anastasia Hessel",
+    "created": "24.08.2016",
+    "traits": [
+      "Převislá",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "116",
+    "expired": true,
+    "color": "#000000",
+    "name": "accusantium ullam labore",
+    "difficulty": 9,
+    "sector": "F",
+    "lineNumber": 58,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "02.09.2016",
+    "traits": [
+      "Síla",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "117",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "quis sit sapiente",
+    "difficulty": "6+",
+    "sector": "F",
+    "lineNumber": 58,
+    "author": "Eli Roob",
+    "created": "11.10.2016",
+    "traits": [
+      "Síla",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "118",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "porro doloribus quisquam",
+    "difficulty": 11,
+    "sector": "F",
+    "lineNumber": 59,
+    "author": "Eli Roob",
+    "created": "01.03.2016",
+    "traits": [
+      "Know-how",
+      "Technika"
+    ]
+  },
+  {
+    "id": "119",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "nisi non hic",
+    "difficulty": 4,
+    "sector": "F",
+    "lineNumber": 59,
+    "author": "Eli Roob",
+    "created": "11.01.2017",
+    "traits": [
+      "Technika",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "120",
+    "expired": false,
+    "color": "#f507c9",
+    "name": "cum sit est",
+    "difficulty": "4+",
+    "sector": "G",
+    "lineNumber": 60,
+    "author": "Anastasia Hessel",
+    "created": "15.11.2016",
+    "traits": [
+      "Převislá",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "121",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "eum aspernatur officiis",
+    "difficulty": "4+",
+    "sector": "G",
+    "lineNumber": 60,
+    "author": "Adelia Parisian",
+    "created": "18.01.2017",
+    "traits": [
+      "Silně převislá/strop",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "122",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "aspernatur explicabo nemo",
+    "difficulty": "11+",
+    "sector": "G",
+    "lineNumber": 61,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "05.09.2016",
+    "traits": [
+      "Síla",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "123",
+    "expired": true,
+    "color": "#000000",
+    "name": "laboriosam totam ut",
+    "difficulty": "6+",
+    "sector": "G",
+    "lineNumber": 61,
+    "author": "Anastasia Hessel",
+    "created": "06.10.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "124",
+    "expired": true,
+    "color": "#1e5626",
+    "name": "voluptatum corrupti officiis",
+    "difficulty": "6+",
+    "sector": "G",
+    "lineNumber": 62,
+    "author": "Adelia Parisian",
+    "created": "15.06.2016",
+    "traits": [
+      "Dětská",
+      "Síla"
+    ]
+  },
+  {
+    "id": "125",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "maiores maxime nesciunt",
+    "difficulty": "5+",
+    "sector": "G",
+    "lineNumber": 62,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "10.10.2016",
+    "traits": [
+      "Know-how",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "126",
+    "expired": false,
+    "color": "#f6eb0b",
+    "name": "nam veniam aperiam",
+    "difficulty": 5,
+    "sector": "G",
+    "lineNumber": 63,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "20.12.2016",
+    "traits": [
+      "Technika",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "127",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "culpa ut et",
+    "difficulty": 4,
+    "sector": "G",
+    "lineNumber": 63,
+    "author": "Adelia Parisian",
+    "created": "25.11.2016",
+    "traits": [
+      "Technika",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "128",
+    "expired": false,
+    "color": "#000000",
+    "name": "illo architecto eos",
+    "difficulty": "11+",
+    "sector": "G",
+    "lineNumber": 64,
+    "author": "Adelia Parisian",
+    "created": "14.08.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Síla"
+    ]
+  },
+  {
+    "id": "129",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "est fugiat velit",
+    "difficulty": "8+",
+    "sector": "G",
+    "lineNumber": 64,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "12.06.2016",
+    "traits": [
+      "Dětská",
+      "Technika"
+    ]
+  },
+  {
+    "id": "130",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "dolor qui libero",
+    "difficulty": "9+",
+    "sector": "G",
+    "lineNumber": 65,
+    "author": "Adelia Parisian",
+    "created": "26.04.2016",
+    "traits": [
+      "Převislá",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "131",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "dolorem voluptatem quia",
+    "difficulty": "9+",
+    "sector": "G",
+    "lineNumber": 65,
+    "author": "Eli Roob",
+    "created": "29.02.2016",
+    "traits": [
+      "Síla",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "132",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "sapiente consequatur non",
+    "difficulty": "6+",
+    "sector": "G",
+    "lineNumber": 66,
+    "author": "Adelia Parisian",
+    "created": "26.03.2016",
+    "traits": [
+      "Technika",
+      "Síla"
+    ]
+  },
+  {
+    "id": "133",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "incidunt quos aut",
+    "difficulty": "11+",
+    "sector": "G",
+    "lineNumber": 66,
+    "author": "Eli Roob",
+    "created": "15.11.2016",
+    "traits": [
+      "Převislá",
+      "Síla"
+    ]
+  },
+  {
+    "id": "134",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "esse provident aperiam",
+    "difficulty": "8+",
+    "sector": "G",
+    "lineNumber": 67,
+    "author": "Miss Thalia Hermann",
+    "created": "14.03.2016",
+    "traits": [
+      "Převislá",
+      "Technika"
+    ]
+  },
+  {
+    "id": "135",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "non aut ut",
+    "difficulty": "10+",
+    "sector": "G",
+    "lineNumber": 67,
+    "author": "Miss Thalia Hermann",
+    "created": "26.09.2016",
+    "traits": [
+      "Technika",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "136",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "nobis mollitia esse",
+    "difficulty": "3+",
+    "sector": "G",
+    "lineNumber": 68,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "21.02.2016",
+    "traits": [
+      "Technika",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "137",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "consequatur aspernatur aspernatur",
+    "difficulty": "10+",
+    "sector": "G",
+    "lineNumber": 68,
+    "author": "Adelia Parisian",
+    "created": "15.07.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Síla"
+    ]
+  },
+  {
+    "id": "138",
+    "expired": false,
+    "color": "#f507c9",
+    "name": "quos nisi illo",
+    "difficulty": "3+",
+    "sector": "G",
+    "lineNumber": 69,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "11.01.2017",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Technika"
+    ]
+  },
+  {
+    "id": "139",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "et dolorum repudiandae",
+    "difficulty": 6,
+    "sector": "G",
+    "lineNumber": 69,
+    "author": "Anastasia Hessel",
+    "created": "04.02.2017",
+    "traits": [
+      "Silně převislá/strop",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "140",
+    "expired": false,
+    "color": "#f507c9",
+    "name": "rerum delectus quisquam",
+    "difficulty": "7+",
+    "sector": "H",
+    "lineNumber": 70,
+    "author": "Miss Thalia Hermann",
+    "created": "28.09.2016",
+    "traits": [
+      "Převislá",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "141",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "et et cupiditate",
+    "difficulty": "3+",
+    "sector": "H",
+    "lineNumber": 70,
+    "author": "Miss Thalia Hermann",
+    "created": "14.02.2017",
+    "traits": [
+      "Síla",
+      "Síla"
+    ]
+  },
+  {
+    "id": "142",
+    "expired": false,
+    "color": "#000000",
+    "name": "veritatis molestiae hic",
+    "difficulty": "10+",
+    "sector": "H",
+    "lineNumber": 71,
+    "author": "Adelia Parisian",
+    "created": "18.10.2016",
+    "traits": [
+      "Dětská",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "143",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "facilis inventore voluptatibus",
+    "difficulty": 3,
+    "sector": "H",
+    "lineNumber": 71,
+    "author": "Adelia Parisian",
+    "created": "11.05.2016",
+    "traits": [
+      "Technika",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "144",
+    "expired": false,
+    "color": "#f6eb0b",
+    "name": "expedita nemo quis",
+    "difficulty": 6,
+    "sector": "H",
+    "lineNumber": 72,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "04.11.2016",
+    "traits": [
+      "Know-how",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "145",
+    "expired": false,
+    "color": "#f6eb0b",
+    "name": "aut eaque harum",
+    "difficulty": "9+",
+    "sector": "H",
+    "lineNumber": 72,
+    "author": "Adelia Parisian",
+    "created": "01.07.2016",
+    "traits": [
+      "Převislá",
+      "Síla"
+    ]
+  },
+  {
+    "id": "146",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "deserunt quam aperiam",
+    "difficulty": 8,
+    "sector": "H",
+    "lineNumber": 73,
+    "author": "Miss Thalia Hermann",
+    "created": "24.09.2016",
+    "traits": [
+      "Know-how",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "147",
+    "expired": true,
+    "color": "#1e5626",
+    "name": "voluptatem ut perspiciatis",
+    "difficulty": 7,
+    "sector": "H",
+    "lineNumber": 73,
+    "author": "Miss Thalia Hermann",
+    "created": "07.10.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "148",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "doloremque rerum ut",
+    "difficulty": "10+",
+    "sector": "H",
+    "lineNumber": 74,
+    "author": "Adelia Parisian",
+    "created": "15.09.2016",
+    "traits": [
+      "Dětská",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "149",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "nihil occaecati dolorum",
+    "difficulty": "3+",
+    "sector": "H",
+    "lineNumber": 74,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "10.05.2016",
+    "traits": [
+      "Technika",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "150",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "velit sapiente fuga",
+    "difficulty": 8,
+    "sector": "H",
+    "lineNumber": 75,
+    "author": "Adelia Parisian",
+    "created": "29.05.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "151",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "officia odit inventore",
+    "difficulty": "7+",
+    "sector": "H",
+    "lineNumber": 75,
+    "author": "Adelia Parisian",
+    "created": "02.10.2016",
+    "traits": [
+      "Dětská",
+      "Technika"
+    ]
+  },
+  {
+    "id": "152",
+    "expired": false,
+    "color": "#000000",
+    "name": "soluta eius iure",
+    "difficulty": 11,
+    "sector": "H",
+    "lineNumber": 76,
+    "author": "Adelia Parisian",
+    "created": "31.10.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "153",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "cupiditate et voluptatem",
+    "difficulty": 9,
+    "sector": "H",
+    "lineNumber": 76,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "04.06.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "154",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "rerum soluta iusto",
+    "difficulty": "10+",
+    "sector": "H",
+    "lineNumber": 77,
+    "author": "Miss Thalia Hermann",
+    "created": "13.01.2017",
+    "traits": [
+      "Silně převislá/strop",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "155",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "omnis nostrum et",
+    "difficulty": 4,
+    "sector": "H",
+    "lineNumber": 77,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "07.05.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Technika"
+    ]
+  },
+  {
+    "id": "156",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "corporis at est",
+    "difficulty": "11+",
+    "sector": "H",
+    "lineNumber": 78,
+    "author": "Anastasia Hessel",
+    "created": "19.10.2016",
+    "traits": [
+      "Know-how",
+      "Síla"
+    ]
+  },
+  {
+    "id": "157",
+    "expired": false,
+    "color": "#f507c9",
+    "name": "totam vero temporibus",
+    "difficulty": "10+",
+    "sector": "H",
+    "lineNumber": 78,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "27.06.2016",
+    "traits": [
+      "Know-how",
+      "Technika"
+    ]
+  },
+  {
+    "id": "158",
+    "expired": false,
+    "color": "#000000",
+    "name": "et qui fuga",
+    "difficulty": "10+",
+    "sector": "H",
+    "lineNumber": 79,
+    "author": "Miss Thalia Hermann",
+    "created": "07.03.2016",
+    "traits": [
+      "Technika",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "159",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "voluptas consequatur dolores",
+    "difficulty": 9,
+    "sector": "H",
+    "lineNumber": 79,
+    "author": "Adelia Parisian",
+    "created": "18.12.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "160",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "est consequuntur molestiae",
+    "difficulty": "9+",
+    "sector": "I",
+    "lineNumber": 80,
+    "author": "Adelia Parisian",
+    "created": "15.05.2016",
+    "traits": [
+      "Know-how",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "161",
+    "expired": false,
+    "color": "#f6eb0b",
+    "name": "ipsum aut est",
+    "difficulty": 3,
+    "sector": "I",
+    "lineNumber": 80,
+    "author": "Adelia Parisian",
+    "created": "08.11.2016",
+    "traits": [
+      "Síla",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "162",
+    "expired": true,
+    "color": "#000000",
+    "name": "et dignissimos sequi",
+    "difficulty": "10+",
+    "sector": "I",
+    "lineNumber": 81,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "03.01.2017",
+    "traits": [
+      "Převislá",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "163",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "est esse omnis",
+    "difficulty": 7,
+    "sector": "I",
+    "lineNumber": 81,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "30.08.2016",
+    "traits": [
+      "Dětská",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "164",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "consequatur consequatur quo",
+    "difficulty": "10+",
+    "sector": "I",
+    "lineNumber": 82,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "30.04.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "165",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "dolores in voluptatem",
+    "difficulty": "7+",
+    "sector": "I",
+    "lineNumber": 82,
+    "author": "Anastasia Hessel",
+    "created": "27.05.2016",
+    "traits": [
+      "Síla",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "166",
+    "expired": false,
+    "color": "#000000",
+    "name": "iure quae consequatur",
+    "difficulty": 9,
+    "sector": "I",
+    "lineNumber": 83,
+    "author": "Anastasia Hessel",
+    "created": "26.02.2016",
+    "traits": [
+      "Síla",
+      "Síla"
+    ]
+  },
+  {
+    "id": "167",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "aut illum ratione",
+    "difficulty": 11,
+    "sector": "I",
+    "lineNumber": 83,
+    "author": "Anastasia Hessel",
+    "created": "27.08.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "168",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "velit iste velit",
+    "difficulty": "3+",
+    "sector": "I",
+    "lineNumber": 84,
+    "author": "Eli Roob",
+    "created": "04.10.2016",
+    "traits": [
+      "Dětská",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "169",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "dolores id ut",
+    "difficulty": 5,
+    "sector": "I",
+    "lineNumber": 84,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "14.09.2016",
+    "traits": [
+      "Know-how",
+      "Technika"
+    ]
+  },
+  {
+    "id": "170",
+    "expired": true,
+    "color": "#1e5626",
+    "name": "ullam est id",
+    "difficulty": "6+",
+    "sector": "I",
+    "lineNumber": 85,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "02.03.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "171",
+    "expired": false,
+    "color": "#000000",
+    "name": "consequatur quas sapiente",
+    "difficulty": "3+",
+    "sector": "I",
+    "lineNumber": 85,
+    "author": "Miss Thalia Hermann",
+    "created": "13.04.2016",
+    "traits": [
+      "Síla",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "172",
+    "expired": false,
+    "color": "#f507c9",
+    "name": "animi cupiditate excepturi",
+    "difficulty": "6+",
+    "sector": "I",
+    "lineNumber": 86,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "28.09.2016",
+    "traits": [
+      "Převislá",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "173",
+    "expired": false,
+    "color": "#f6eb0b",
+    "name": "iure dolores quaerat",
+    "difficulty": "11+",
+    "sector": "I",
+    "lineNumber": 86,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "31.12.2016",
+    "traits": [
+      "Know-how",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "174",
+    "expired": false,
+    "color": "#000000",
+    "name": "quia magnam et",
+    "difficulty": 7,
+    "sector": "I",
+    "lineNumber": 87,
+    "author": "Anastasia Hessel",
+    "created": "28.09.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "175",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "illo et illo",
+    "difficulty": "3+",
+    "sector": "I",
+    "lineNumber": 87,
+    "author": "Adelia Parisian",
+    "created": "08.08.2016",
+    "traits": [
+      "Síla",
+      "Technika"
+    ]
+  },
+  {
+    "id": "176",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "molestiae autem nobis",
+    "difficulty": "9+",
+    "sector": "I",
+    "lineNumber": 88,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "19.07.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Síla"
+    ]
+  },
+  {
+    "id": "177",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "cupiditate commodi debitis",
+    "difficulty": "6+",
+    "sector": "I",
+    "lineNumber": 88,
+    "author": "Anastasia Hessel",
+    "created": "14.03.2016",
+    "traits": [
+      "Technika",
+      "Technika"
+    ]
+  },
+  {
+    "id": "178",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "ipsam similique quae",
+    "difficulty": "9+",
+    "sector": "I",
+    "lineNumber": 89,
+    "author": "Miss Thalia Hermann",
+    "created": "11.08.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "179",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "aut ullam omnis",
+    "difficulty": "5+",
+    "sector": "I",
+    "lineNumber": 89,
+    "author": "Anastasia Hessel",
+    "created": "02.10.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "180",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "aut iusto sint",
+    "difficulty": "6+",
+    "sector": "J",
+    "lineNumber": 90,
+    "author": "Adelia Parisian",
+    "created": "16.02.2017",
+    "traits": [
+      "Technika",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "181",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "veritatis ut eligendi",
+    "difficulty": "5+",
+    "sector": "J",
+    "lineNumber": 90,
+    "author": "Miss Thalia Hermann",
+    "created": "23.12.2016",
+    "traits": [
+      "Dětská",
+      "Technika"
+    ]
+  },
+  {
+    "id": "182",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "iure laudantium voluptas",
+    "difficulty": "3+",
+    "sector": "J",
+    "lineNumber": 91,
+    "author": "Adelia Parisian",
+    "created": "14.09.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "183",
+    "expired": false,
+    "color": "#f507c9",
+    "name": "tempore repudiandae ut",
+    "difficulty": 8,
+    "sector": "J",
+    "lineNumber": 91,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "23.12.2016",
+    "traits": [
+      "Dětská",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "184",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "deleniti eligendi ullam",
+    "difficulty": "7+",
+    "sector": "J",
+    "lineNumber": 92,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "16.11.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "185",
+    "expired": true,
+    "color": "#000000",
+    "name": "dolores est minima",
+    "difficulty": "4+",
+    "sector": "J",
+    "lineNumber": 92,
+    "author": "Miss Thalia Hermann",
+    "created": "27.05.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "186",
+    "expired": false,
+    "color": "#f507c9",
+    "name": "veniam quia eum",
+    "difficulty": "9+",
+    "sector": "J",
+    "lineNumber": 93,
+    "author": "Miss Thalia Hermann",
+    "created": "22.12.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "187",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "quasi eos culpa",
+    "difficulty": "10+",
+    "sector": "J",
+    "lineNumber": 93,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "08.12.2016",
+    "traits": [
+      "Know-how",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "188",
+    "expired": true,
+    "color": "#000000",
+    "name": "veniam magnam unde",
+    "difficulty": "10+",
+    "sector": "J",
+    "lineNumber": 94,
+    "author": "Miss Thalia Hermann",
+    "created": "04.11.2016",
+    "traits": [
+      "Síla",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "189",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "rem reprehenderit inventore",
+    "difficulty": "9+",
+    "sector": "J",
+    "lineNumber": 94,
+    "author": "Adelia Parisian",
+    "created": "22.11.2016",
+    "traits": [
+      "Know-how",
+      "Síla"
+    ]
+  },
+  {
+    "id": "190",
+    "expired": false,
+    "color": "#f6eb0b",
+    "name": "veniam eius voluptate",
+    "difficulty": "5+",
+    "sector": "J",
+    "lineNumber": 95,
+    "author": "Adelia Parisian",
+    "created": "13.05.2016",
+    "traits": [
+      "Know-how",
+      "Technika"
+    ]
+  },
+  {
+    "id": "191",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "vel porro maiores",
+    "difficulty": 6,
+    "sector": "J",
+    "lineNumber": 95,
+    "author": "Adelia Parisian",
+    "created": "07.10.2016",
+    "traits": [
+      "Převislá",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "192",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "excepturi quam et",
+    "difficulty": 7,
+    "sector": "J",
+    "lineNumber": 96,
+    "author": "Adelia Parisian",
+    "created": "18.04.2016",
+    "traits": [
+      "Know-how",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "193",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "maxime expedita molestias",
+    "difficulty": 6,
+    "sector": "J",
+    "lineNumber": 96,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "01.12.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Technika"
+    ]
+  },
+  {
+    "id": "194",
+    "expired": false,
+    "color": "#000000",
+    "name": "dolorem aut quaerat",
+    "difficulty": 3,
+    "sector": "J",
+    "lineNumber": 97,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "05.10.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "195",
+    "expired": false,
+    "color": "#000000",
+    "name": "sint dolorem est",
+    "difficulty": "4+",
+    "sector": "J",
+    "lineNumber": 97,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "10.02.2017",
+    "traits": [
+      "Převislá",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "196",
+    "expired": false,
+    "color": "#000000",
+    "name": "quia est mollitia",
+    "difficulty": "6+",
+    "sector": "J",
+    "lineNumber": 98,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "13.08.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "197",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "corrupti et amet",
+    "difficulty": "3+",
+    "sector": "J",
+    "lineNumber": 98,
+    "author": "Miss Thalia Hermann",
+    "created": "31.01.2017",
+    "traits": [
+      "Technika",
+      "Technika"
+    ]
+  },
+  {
+    "id": "198",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "quia vel distinctio",
+    "difficulty": 8,
+    "sector": "J",
+    "lineNumber": 99,
+    "author": "Anastasia Hessel",
+    "created": "04.12.2016",
+    "traits": [
+      "Know-how",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "199",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "illo perspiciatis dolores",
+    "difficulty": "9+",
+    "sector": "J",
+    "lineNumber": 99,
+    "author": "Miss Thalia Hermann",
+    "created": "04.03.2016",
+    "traits": [
+      "Dětská",
+      "Síla"
+    ]
+  },
+  {
+    "id": "200",
+    "expired": true,
+    "color": "#000000",
+    "name": "aspernatur eum doloribus",
+    "difficulty": "9+",
+    "sector": "K",
+    "lineNumber": 100,
+    "author": "Miss Thalia Hermann",
+    "created": "18.05.2016",
+    "traits": [
+      "Síla",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "201",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "omnis nihil repudiandae",
+    "difficulty": 11,
+    "sector": "K",
+    "lineNumber": 100,
+    "author": "Miss Thalia Hermann",
+    "created": "13.02.2017",
+    "traits": [
+      "Know-how",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "202",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "quos accusantium quis",
+    "difficulty": "4+",
+    "sector": "K",
+    "lineNumber": 101,
+    "author": "Miss Thalia Hermann",
+    "created": "13.08.2016",
+    "traits": [
+      "Technika",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "203",
+    "expired": false,
+    "color": "#000000",
+    "name": "autem enim itaque",
+    "difficulty": "11+",
+    "sector": "K",
+    "lineNumber": 101,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "27.08.2016",
+    "traits": [
+      "Síla",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "204",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "et ullam sunt",
+    "difficulty": "6+",
+    "sector": "K",
+    "lineNumber": 102,
+    "author": "Miss Thalia Hermann",
+    "created": "24.02.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Technika"
+    ]
+  },
+  {
+    "id": "205",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "porro ab odit",
+    "difficulty": 4,
+    "sector": "K",
+    "lineNumber": 102,
+    "author": "Adelia Parisian",
+    "created": "10.06.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "206",
+    "expired": true,
+    "color": "#000000",
+    "name": "reprehenderit aspernatur animi",
+    "difficulty": "3+",
+    "sector": "K",
+    "lineNumber": 103,
+    "author": "Adelia Parisian",
+    "created": "28.02.2016",
+    "traits": [
+      "Know-how",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "207",
+    "expired": true,
+    "color": "#1e5626",
+    "name": "atque repellendus minus",
+    "difficulty": "3+",
+    "sector": "K",
+    "lineNumber": 103,
+    "author": "Eli Roob",
+    "created": "20.02.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "208",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "velit voluptas assumenda",
+    "difficulty": "9+",
+    "sector": "K",
+    "lineNumber": 104,
+    "author": "Miss Thalia Hermann",
+    "created": "12.06.2016",
+    "traits": [
+      "Síla",
+      "Síla"
+    ]
+  },
+  {
+    "id": "209",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "non veritatis accusamus",
+    "difficulty": "9+",
+    "sector": "K",
+    "lineNumber": 104,
+    "author": "Adelia Parisian",
+    "created": "20.04.2016",
+    "traits": [
+      "Síla",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "210",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "sit magni dolores",
+    "difficulty": 4,
+    "sector": "K",
+    "lineNumber": 105,
+    "author": "Adelia Parisian",
+    "created": "27.09.2016",
+    "traits": [
+      "Síla",
+      "Technika"
+    ]
+  },
+  {
+    "id": "211",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "ut eligendi qui",
+    "difficulty": "9+",
+    "sector": "K",
+    "lineNumber": 105,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "03.01.2017",
+    "traits": [
+      "Silně převislá/strop",
+      "Síla"
+    ]
+  },
+  {
+    "id": "212",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "voluptates perferendis aut",
+    "difficulty": 11,
+    "sector": "K",
+    "lineNumber": 106,
+    "author": "Adelia Parisian",
+    "created": "24.08.2016",
+    "traits": [
+      "Převislá",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "213",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "voluptatem est dolorem",
+    "difficulty": 5,
+    "sector": "K",
+    "lineNumber": 106,
+    "author": "Anastasia Hessel",
+    "created": "04.05.2016",
+    "traits": [
+      "Dětská",
+      "Technika"
+    ]
+  },
+  {
+    "id": "214",
+    "expired": true,
+    "color": "#000000",
+    "name": "repellendus molestiae quia",
+    "difficulty": 4,
+    "sector": "K",
+    "lineNumber": 107,
+    "author": "Eli Roob",
+    "created": "24.03.2016",
+    "traits": [
+      "Převislá",
+      "Technika"
+    ]
+  },
+  {
+    "id": "215",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "blanditiis quo atque",
+    "difficulty": "9+",
+    "sector": "K",
+    "lineNumber": 107,
+    "author": "Miss Thalia Hermann",
+    "created": "26.06.2016",
+    "traits": [
+      "Technika",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "216",
+    "expired": false,
+    "color": "#000000",
+    "name": "et laboriosam id",
+    "difficulty": "5+",
+    "sector": "K",
+    "lineNumber": 108,
+    "author": "Miss Thalia Hermann",
+    "created": "24.07.2016",
+    "traits": [
+      "Převislá",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "217",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "atque rerum nobis",
+    "difficulty": 9,
+    "sector": "K",
+    "lineNumber": 108,
+    "author": "Anastasia Hessel",
+    "created": "16.03.2016",
+    "traits": [
+      "Převislá",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "218",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "quo omnis saepe",
+    "difficulty": "3+",
+    "sector": "K",
+    "lineNumber": 109,
+    "author": "Adelia Parisian",
+    "created": "21.04.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "219",
+    "expired": true,
+    "color": "#1e5626",
+    "name": "accusantium maiores quaerat",
+    "difficulty": "9+",
+    "sector": "K",
+    "lineNumber": 109,
+    "author": "Miss Thalia Hermann",
+    "created": "28.06.2016",
+    "traits": [
+      "Know-how",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "220",
+    "expired": true,
+    "color": "#000000",
+    "name": "enim aut distinctio",
+    "difficulty": 11,
+    "sector": "L",
+    "lineNumber": 110,
+    "author": "Anastasia Hessel",
+    "created": "10.07.2016",
+    "traits": [
+      "Dětská",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "221",
+    "expired": false,
+    "color": "#f6eb0b",
+    "name": "qui ipsa deleniti",
+    "difficulty": "5+",
+    "sector": "L",
+    "lineNumber": 110,
+    "author": "Anastasia Hessel",
+    "created": "07.08.2016",
+    "traits": [
+      "Síla",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "222",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "quidem et aliquid",
+    "difficulty": 9,
+    "sector": "L",
+    "lineNumber": 111,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "04.06.2016",
+    "traits": [
+      "Síla",
+      "Technika"
+    ]
+  },
+  {
+    "id": "223",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "ea eius quaerat",
+    "difficulty": "3+",
+    "sector": "L",
+    "lineNumber": 111,
+    "author": "Eli Roob",
+    "created": "07.12.2016",
+    "traits": [
+      "Převislá",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "224",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "excepturi sit aspernatur",
+    "difficulty": "11+",
+    "sector": "L",
+    "lineNumber": 112,
+    "author": "Miss Thalia Hermann",
+    "created": "14.09.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "225",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "iusto quae perferendis",
+    "difficulty": 6,
+    "sector": "L",
+    "lineNumber": 112,
+    "author": "Miss Thalia Hermann",
+    "created": "19.07.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Technika"
+    ]
+  },
+  {
+    "id": "226",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "et adipisci aut",
+    "difficulty": 3,
+    "sector": "L",
+    "lineNumber": 113,
+    "author": "Miss Thalia Hermann",
+    "created": "26.10.2016",
+    "traits": [
+      "Dětská",
+      "Technika"
+    ]
+  },
+  {
+    "id": "227",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "occaecati at aliquid",
+    "difficulty": 7,
+    "sector": "L",
+    "lineNumber": 113,
+    "author": "Miss Thalia Hermann",
+    "created": "23.03.2016",
+    "traits": [
+      "Síla",
+      "Technika"
+    ]
+  },
+  {
+    "id": "228",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "incidunt deleniti eius",
+    "difficulty": "5+",
+    "sector": "L",
+    "lineNumber": 114,
+    "author": "Adelia Parisian",
+    "created": "30.03.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "229",
+    "expired": true,
+    "color": "#f507c9",
+    "name": "non quo officia",
+    "difficulty": 6,
+    "sector": "L",
+    "lineNumber": 114,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "28.01.2017",
+    "traits": [
+      "Know-how",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "230",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "omnis non et",
+    "difficulty": "5+",
+    "sector": "L",
+    "lineNumber": 115,
+    "author": "Eli Roob",
+    "created": "11.08.2016",
+    "traits": [
+      "Dětská",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "231",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "quisquam et delectus",
+    "difficulty": 10,
+    "sector": "L",
+    "lineNumber": 115,
+    "author": "Adelia Parisian",
+    "created": "05.09.2016",
+    "traits": [
+      "Technika",
+      "Síla"
+    ]
+  },
+  {
+    "id": "232",
+    "expired": true,
+    "color": "#fbbf8d",
+    "name": "et eius nesciunt",
+    "difficulty": "11+",
+    "sector": "L",
+    "lineNumber": 116,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "09.11.2016",
+    "traits": [
+      "Převislá",
+      "Síla"
+    ]
+  },
+  {
+    "id": "233",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "quos omnis molestiae",
+    "difficulty": "6+",
+    "sector": "L",
+    "lineNumber": 116,
+    "author": "Adelia Parisian",
+    "created": "16.12.2016",
+    "traits": [
+      "Dětská",
+      "Know-how"
+    ]
+  },
+  {
+    "id": "234",
+    "expired": true,
+    "color": "#1e5626",
+    "name": "placeat ipsam rerum",
+    "difficulty": "3+",
+    "sector": "L",
+    "lineNumber": 117,
+    "author": "Anastasia Hessel",
+    "created": "22.03.2016",
+    "traits": [
+      "Převislá",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "235",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "et sed nobis",
+    "difficulty": 11,
+    "sector": "L",
+    "lineNumber": 117,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "04.06.2016",
+    "traits": [
+      "Technika",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "236",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "ducimus delectus alias",
+    "difficulty": 7,
+    "sector": "L",
+    "lineNumber": 118,
+    "author": "Anastasia Hessel",
+    "created": "22.07.2016",
+    "traits": [
+      "Know-how",
+      "Technika"
+    ]
+  },
+  {
+    "id": "237",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "nihil laborum repudiandae",
+    "difficulty": "5+",
+    "sector": "L",
+    "lineNumber": 118,
+    "author": "Anastasia Hessel",
+    "created": "22.10.2016",
+    "traits": [
+      "Síla",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "238",
+    "expired": false,
+    "color": "#f6eb0b",
+    "name": "accusamus nisi pariatur",
+    "difficulty": "8+",
+    "sector": "L",
+    "lineNumber": 119,
+    "author": "Miss Thalia Hermann",
+    "created": "16.03.2016",
+    "traits": [
+      "Dětská",
+      "Technika"
+    ]
+  },
+  {
+    "id": "239",
+    "expired": false,
+    "color": "#000000",
+    "name": "id error consequatur",
+    "difficulty": "10+",
+    "sector": "L",
+    "lineNumber": 119,
+    "author": "Eli Roob",
+    "created": "24.08.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Kolmá/mírně převislá"
+    ]
+  },
+  {
+    "id": "240",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "atque beatae minima",
+    "difficulty": 7,
+    "sector": "M",
+    "lineNumber": 120,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "13.12.2016",
+    "traits": [
+      "Know-how",
+      "Technika"
+    ]
+  },
+  {
+    "id": "241",
+    "expired": true,
+    "color": "#1e5626",
+    "name": "ut deleniti quos",
+    "difficulty": "9+",
+    "sector": "M",
+    "lineNumber": 120,
+    "author": "Eli Roob",
+    "created": "19.04.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Síla"
+    ]
+  },
+  {
+    "id": "242",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "consectetur est rerum",
+    "difficulty": 10,
+    "sector": "M",
+    "lineNumber": 121,
+    "author": "Mrs. Georgianna Marvin",
+    "created": "06.06.2016",
+    "traits": [
+      "Dětská",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "243",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "accusantium corporis dolor",
+    "difficulty": "6+",
+    "sector": "M",
+    "lineNumber": 121,
+    "author": "Anastasia Hessel",
+    "created": "17.07.2016",
+    "traits": [
+      "Technika",
+      "Technika"
+    ]
+  },
+  {
+    "id": "244",
+    "expired": false,
+    "color": "#1e5626",
+    "name": "magnam voluptate enim",
+    "difficulty": "8+",
+    "sector": "M",
+    "lineNumber": 122,
+    "author": "Eli Roob",
+    "created": "11.06.2016",
+    "traits": [
+      "Síla",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "245",
+    "expired": false,
+    "color": "#fbbf8d",
+    "name": "similique nam rerum",
+    "difficulty": "9+",
+    "sector": "M",
+    "lineNumber": 122,
+    "author": "Miss Thalia Hermann",
+    "created": "20.11.2016",
+    "traits": [
+      "Silně převislá/strop",
+      "Silně převislá/strop"
+    ]
+  },
+  {
+    "id": "246",
+    "expired": true,
+    "color": "#3647e8",
+    "name": "nobis debitis quia",
+    "difficulty": "7+",
+    "sector": "M",
+    "lineNumber": 123,
+    "author": "Adelia Parisian",
+    "created": "18.01.2017",
+    "traits": [
+      "Know-how",
+      "Převislá"
+    ]
+  },
+  {
+    "id": "247",
+    "expired": true,
+    "color": "#1e5626",
+    "name": "quibusdam accusamus quos",
+    "difficulty": "9+",
+    "sector": "M",
+    "lineNumber": 123,
+    "author": "Miss Thalia Hermann",
+    "created": "16.11.2016",
+    "traits": [
+      "Převislá",
+      "Technika"
+    ]
+  },
+  {
+    "id": "248",
+    "expired": false,
+    "color": "#3647e8",
+    "name": "rerum ad cumque",
+    "difficulty": "3+",
+    "sector": "M",
+    "lineNumber": 124,
+    "author": "Adelia Parisian",
+    "created": "07.07.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "249",
+    "expired": true,
+    "color": "#f6eb0b",
+    "name": "perferendis non recusandae",
+    "difficulty": "3+",
+    "sector": "M",
+    "lineNumber": 124,
+    "author": "Adelia Parisian",
+    "created": "17.06.2016",
+    "traits": [
+      "Dětská",
+      "Dětská"
+    ]
+  },
+  {
+    "id": "250",
+    "expired": false,
+    "color": "#000000",
+    "name": "assumenda corrupti aut",
+    "difficulty": "9+",
+    "sector": "M",
+    "lineNumber": 125,
+    "author": "Eli Roob",
+    "created": "08.08.2016",
+    "traits": [
+      "Kolmá/mírně převislá",
+      "Know-how"
+    ]
+  }
+]

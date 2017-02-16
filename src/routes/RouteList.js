@@ -7,7 +7,7 @@ import RouteListItem from './RouteListItem';
 import SearchInput from './SearchInput';
 
 // TODO: for now let's compile routes.json into the bundle, so I don't have to care about caching
-import routes from '../../public/routes.json';
+import routes from '../../routes.json';
 
 class RouteList extends Component {
   constructor(props) {

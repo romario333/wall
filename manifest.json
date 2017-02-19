@@ -3,16 +3,9 @@
   "short_name": "Route Finder",
   "icons": [
     {
-      "src": "wall-launcher-3x.png",
+      "src": "wall-launcher-v0.png",
       "sizes": "144x144",
-      "type": "image/png",
-      "density": 3.0
-    },
-    {
-      "src": "wall-launcher-4x.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "density": 4.0
+      "type": "image/png"
     }
   ],
   "start_url": "index.html",

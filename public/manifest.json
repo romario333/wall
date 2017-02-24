@@ -1,18 +1,16 @@
 {
-  "name": "Route Finder",
   "short_name": "Route Finder",
+  "name": "Route Finder",
   "icons": [
     {
-      "src": "wall-launcher-3x.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "density": 3.0
+      "src": "wall-launcher3-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
     },
     {
-      "src": "wall-launcher-4x.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "density": 4.0
+      "src": "wall-launcher3-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "start_url": "index.html",

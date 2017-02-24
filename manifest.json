@@ -3,12 +3,12 @@
   "name": "Route Finder",
   "icons": [
     {
-      "src": "wall-launcher2-192.png",
+      "src": "wall-launcher3-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "wall-launcher2-512.png",
+      "src": "wall-launcher3-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }

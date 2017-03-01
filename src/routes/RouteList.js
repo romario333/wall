@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import {List, ListItem} from 'material-ui/List';
 import fuzzy from 'fuzzy';
 import deburr from 'lodash.deburr';
 import 'whatwg-fetch';
 import './RouteList.css';
-import RouteListItem from './RouteListItem';
 import SearchInput from './SearchInput';
+import RouteListItem from './RouteListItem';
+import RouteDetail from './RouteDetail';
 
 // TODO: for now let's compile routes.json into the bundle, so I don't have to care about caching
 import routes from '../../routes.json';
@@ -15,12 +17,14 @@ class RouteList extends Component {
     this.state = {
       search: '',
       routes: [],
-      activeRoute: null
+      activeRoute: null,
+      detailOpen: false
     };
     this.afterUpdate = createTaskQueue();
 
     this.handleSearchChange = this.handleSearchChange.bind(this);
     this.handleRouteClick = this.handleRouteClick.bind(this);
+    this.handleCloseDetailClick = this.handleCloseDetailClick.bind(this);
   }
 
   componentDidMount() {
@@ -37,35 +41,31 @@ class RouteList extends Component {
   }
 
   render() {
-    this.listItems = [];
+    this.listItems = []; // TODO: do I still need this?
 
+    // TODO: search
     return (
       <div>
-        <nav className="navbar fixed-top navbar-light bg-faded" ref={el => this.searchBar = el}>
-          <SearchInput
-            className="form-control form-control-lg"
-            placeholder="Search"
-            value={this.state.search}
-            onChange={this.handleSearchChange}
-            onSearch={this.handleSearch} />
-        </nav>
-        <ul className="route-list list-group">
+        <List>
           {
             this.getRoutes().map(route => {
-              let isActive = route === this.state.activeRoute;
-
-              return <RouteListItem
-                onClick={this.handleRouteClick(route)}
-                key={route.id}
-                route={route}
-                active={isActive}
-                ref={listItem => listItem != null && this.listItems.push(listItem)}
-              />
+              return (
+                <RouteListItem
+                  key={route.id}
+                  route={route}
+                  onClick={this.handleRouteClick(route)}
+                />
+              )
             })
           }
-        </ul>
+        </List>
+        <RouteDetail
+          route={this.state.activeRoute}
+          open={this.state.detailOpen}
+          onClose={this.handleCloseDetailClick}
+        />
       </div>
-    );
+    )
   }
 
   handleSearchChange(e) {
@@ -92,15 +92,12 @@ class RouteList extends Component {
 
   handleRouteClick(route) {
     return (() => {
-      this.setState({activeRoute: route, search: ''});
-
-      let listItem = this.listItems.find(item => item.props.route.id === route.id);
-
-      this.keepScrollAt(listItem);
-      this.afterUpdate(() => {
-        this.ensureItemVisible(listItem);
-      });
+      this.setState({activeRoute: route, detailOpen: true, search: ''});
     });
+  }
+
+  handleCloseDetailClick() {
+    this.setState({detailOpen: false});
   }
 
   getRoutes() {

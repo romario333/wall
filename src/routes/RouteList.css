@@ -1,25 +1,3 @@
-.route-list {
-  /* make room for fixed navbar at the top */
-  margin-top: 67px;
-}
-
-.route-list-item-active {
-  background-color: #f4f4f4;
-}
-
-.route-difficulty {
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Make text white for dark colors */
-.route-color-dark {
-  color: #f3f3f3;
-}
-
 /* I want to have clear button in chrome */
 input[type="search"] {
   -webkit-appearance: searchfield;

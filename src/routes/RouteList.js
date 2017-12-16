@@ -74,11 +74,11 @@ class RouteList extends Component {
     if (e.target.value === '') {
       // user is canceling search, keep scrollTop at first item that was visible before cancel
       let item = this.listItems.find(listItem => {
-        return listItem.el.offsetTop > document.body.scrollTop;
+        return listItem.el.offsetTop > document.documentElement.scrollTop;
       });
       this.keepScrollAt(item);
     } else {
-      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
     }
   }
 
@@ -118,7 +118,7 @@ class RouteList extends Component {
    */
   keepScrollAt(listItem) {
     let offsetTopBeforeUpdate = listItem.el.offsetTop;
-    let scrollTopBeforeUpdate = document.body.scrollTop;
+    let scrollTopBeforeUpdate = document.documentElement.scrollTop;
 
     this.afterUpdate(() => {
       this._restoreItemScrollPos(listItem, offsetTopBeforeUpdate, scrollTopBeforeUpdate);
@@ -126,7 +126,7 @@ class RouteList extends Component {
   }
 
   _restoreItemScrollPos(listItem, offsetTopBeforeUpdate, scrollTopBeforeUpdate) {
-    if (document.body.scrollTop !== scrollTopBeforeUpdate ) {
+    if (document.documentElement.scrollTop !== scrollTopBeforeUpdate ) {
       // do not mess with scrollTop if user is actively scrolling
       return;
     }
@@ -135,17 +135,17 @@ class RouteList extends Component {
     let beforeUpdate = offsetTopBeforeUpdate;
     let afterUpdate = listItem.el.offsetTop;
     let change = afterUpdate - beforeUpdate;
-    document.body.scrollTop += change;
+    document.documentElement.scrollTop += change;
   }
 
   ensureItemVisible(listItem) {
-    if (listItem.el.offsetTop + listItem.el.offsetHeight > document.body.scrollTop + window.innerHeight) {
+    if (listItem.el.offsetTop + listItem.el.offsetHeight > document.documentElement.scrollTop + window.innerHeight) {
       //listItem.el.scrollIntoView(false);
-      document.body.scrollTop = listItem.el.offsetTop + listItem.el.offsetHeight - window.innerHeight + 12;
+      document.documentElement.scrollTop = listItem.el.offsetTop + listItem.el.offsetHeight - window.innerHeight + 12;
     }
 
-    if (listItem.el.offsetTop < document.body.scrollTop + this.searchBar.offsetHeight) {
-      document.body.scrollTop = listItem.el.offsetTop - this.searchBar.offsetHeight;
+    if (listItem.el.offsetTop < document.documentElement.scrollTop + this.searchBar.offsetHeight) {
+      document.documentElement.scrollTop = listItem.el.offsetTop - this.searchBar.offsetHeight;
     }
   }
 
